@@ -1,0 +1,7 @@
+.description{
+    height: 230px;
+}
+.cardFooter{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}

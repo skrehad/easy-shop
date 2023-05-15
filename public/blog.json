@@ -1,0 +1,44 @@
+[
+    {
+        "writer":"Tony",
+        "blogTitle":"Control Technology",
+        "blogDescription":"Computers are often a major part of control technology. They can be programmed to give instructions to the device to make it work.The term control technology or industrial control technology stands for devices that control, regulate, monitor, collect data, communicate, and diagnose.",
+        "time":"April 11, 2023",
+        "img":"https://i.ibb.co/hsgjvqT/1.jpg"
+    },
+    {
+        "writer":"Alio",
+        "blogTitle":"Smart World",
+        "blogDescription":"A concept of a digital world that evolves from the definition of ubiquitous computing and promotes the ideas of a physical world that is richly and invisibly interwoven with sensors, actuators, displays, and elements, embedded seamlessly in the everyday objects of our lives, and connected through a continuous network.",
+        "time":"May 14, 2023",
+        "img":"https://i.ibb.co/ZYzhQzX/2.jpg"
+    },
+    {
+        "writer":"Monzur",
+        "blogTitle":"BuildUp Your Knowledge",
+        "blogDescription":"Technical skills refer to the specialized knowledge and expertise needed to accomplish complex actions, tasks, and processes relating to computational and physical technology as well as a diverse group of other enterprises. Start building your skill set.",
+        "time":"March 23, 2023",
+        "img":"https://i.ibb.co/ch96mCc/4.jpg"
+    },
+    {
+        "writer":"kerkut",
+        "blogTitle":" Ryzen 5 Processor",
+        "blogDescription":"Ryzen 5 (pronounced Rye-Zen Five) is a family of mid-range performance 64-bit quad and hexa-cores x86 microprocessors introduced by AMD in March of 2017 in bangladesh. Ryzen 5 is based on the Zen and is manufactured on 14 nm process. Ryzen 5 is marketed toward the mid-range performance market.",
+        "time":"june 117, 2023",
+        "img":"https://i.ibb.co/GpXq7Vz/1992699-ryzen-pib-with-characters-1260x709-1.jpg"
+    },
+    {
+        "writer":"Calton",
+        "blogTitle":" Update Your Knowledge",
+        "blogDescription":"Technology has made it possible for people from all walks of life to have access to different resources. Further, technology is also being used to equip people who need a certain type of assistance to improve their quality of life and help them avail opportunities that would otherwise be inaccessible.",
+        "time":"May 18, 2023",
+        "img":"https://i.ibb.co/1ZQvc6r/3.jpg"
+    }
+    ,{
+        "writer":"Marcel",
+        "blogTitle":" Corei 7 Processor",
+        "blogDescription":"Intel Core i7 is a name that the company Intel uses for the computer processors it makes for high-end desktop and laptop computers and tablets. Intel uses this name for the fastest processors that they think will be used to build the most powerful consumer devices.",
+        "time":"june 18, 2023",
+        "img":"https://i.ibb.co/8Bz4fwC/download-1.jpg"
+    }
+]

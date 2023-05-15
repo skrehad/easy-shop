@@ -1,0 +1,511 @@
+[
+    {
+        "name":"Laptop",
+        "title":"ASUS Vivobook S 16X OLED M5602RA Ryzen 7 6800H",
+        "description":"The ASUS Vivobook S 16X OLED M5602RA is a high-performance laptop with a sleek and slim design. It features a 16 OLED display, which provides vibrant and accurate colors, deep blacks, and excellent contrast. It is powered by an AMD Ryzen 7 6800H (16M Cache, 3.2 GHz up to 4.7 GHz) processor and 16GB of RAM making it suitable for multitasking and handling demanding applications. Additionally, it has a 512GB SSD for fast boot and data access. It has also Fingerprint security. The laptop is designed to be portable, with a slim and lightweight design that makes it easy to take on the go. It's perfect for those who need a powerful and portable laptop for work or entertainment.",
+        "pricing":1350,
+        "rating":5,
+        "img":"https://i.ibb.co/zRZNcdt/7.webp",
+        "otherImg" : ["https://i.ibb.co/yFyncxQ/8.webp","https://i.ibb.co/0n3xrCV/9.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"HeadPhone",
+        "title":"Edifier W820NB Active Noise Cancelling Headphone",
+       "description":"Edifier W820NB Bluetooth Stereo Headphone comes with hybrid ANC technology that reduces noise by up to 38dB. This amplifies your music listening experience while cutting out unwanted noise. It offers Hi-Res Audio standard and Ambient sound mode. The Edifier W820NB has an ergonomic design makes it comfortable enough for all-day use. It is built with a 40mm large dynamic diaphragm driver and produces crystal clear sound that's rich in details. It is powered by a long-lasting battery that's efficient and gives you 49 hours of playback time."
+        ,"pricing":60,
+        "rating":5,
+        "img":"https://i.ibb.co/jhw2nXW/4.jpg",
+        "otherImg" : ["https://i.ibb.co/JBm4Tzf/5.webp","https://i.ibb.co/qMQN3h2/6.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Monitor",
+        "title":"HP M22f 22 FHD IPS Monitor",
+        "description":"The HP M22f 22 FHD IPS Monitor is based on IPS technology for 178 degrees ultra-wide viewing angles with 99% sRGB color gamut for color accuracy, and Freesync to keep your eyes up to speed with your imagination. You can increase viewing comfort with Eyesafe technology that doesn't sacrifice color quality. The HP M22f monitor has been designed with sustainability in mind with 85% recycled materials and packaged in recycled materials. You can streamline your setup with its slim profile, innovative cable containment, and seamless design for side-by-side screens.",
+        "pricing":150,
+        "rating":5,
+        "img":"https://i.ibb.co/YPPVjGF/1.jpg",
+        "otherImg" : ["https://i.ibb.co/cLfyCTJ/2.jpg","https://i.ibb.co/fnGQ2xz/3.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Phone",
+        "title":"Samsung Galaxy Z Fold4 Smartphone (12/256GB)",
+        "description":"The Samsung Galaxy Z Fold4 has a 7.6-inch (unfolded) Full HD+, premium Dynamic AMOLED 2X display. It has a smartphone that can fold up. A 4K video recording option is available on the triple 50+10+12 MP back camera. The 4 MP front camera has an additional 10 MP cover display camera. 4400 mAh battery is included with the Galaxy Z Fold4.",
+        "pricing":2600,
+        "rating":5,
+        "img":"https://i.ibb.co/m5Z2DX5/10.webp",
+        "otherImg" : ["https://i.ibb.co/rGSh0s8/11.png","https://i.ibb.co/LCWVmY1/12.png"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"ipad",
+        "title":"Apple iPad Pro 2021 M1 Chip 12.9-inch Retina XDR Display",
+        "description":"The Apple iPad Pro 2021 M1 Chip 12.9-inch Retina XDR Display Wi-Fi + Cellular 256GB Space Gray is designed with the iPad Pro's 12.9 display features a 2388 x 1668 resolution, ProMotion technology, wide color, and True Tone support, as well as a 600 cd/m2 brightness rating. Performance-wise, Apple has used the M1 chip. This multi-core processor handles all the computational and graphical processing needed for complicated tasks.",
+        "pricing":1500,
+        "rating":5,
+        "img":"https://i.ibb.co/nPkJg9y/13.jpg",
+        "otherImg" : ["https://i.ibb.co/8NLb8WG/14.jpg","https://i.ibb.co/LYZDt9w/15.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Camera",
+        "title":"Sony Alpha A7 III Digital Camera",
+        "description":"Capture the peaks of more decisive moments with the Î±7 III from Sony, packing newly developed back-illuminated full-frame CMOS sensor and other advanced imaging innovations, high-speed response, ease of operation, and reliable durability that are ready for various shooting needs. A software upgrade is now available to support Sony's new Real-time Eye AF for Animals.",
+        "pricing":1700,
+        "rating":5,
+        "img":"https://i.ibb.co/544L7mf/16.jpg",
+        "otherImg" : ["https://i.ibb.co/VQzt9mk/17.jpg","https://i.ibb.co/pKz3SNm/18.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"CCTV Camera",
+        "title":"Jovision JVS-A815-YWC 2MP HD Analog Bullet Camera",
+        "description":"The Jovision JVS-A815-YWC 2MP HD Analog Bullet CCTV Camera is a day and night full-color dome security camera. Jovision JVS-A815-YWC 2MP HD Camera has got you covered whether you're seeking to buy an interior camera to monitor your home day and night, an outdoor camera for your backyard, or even for indoors and outdoors and adjust to varied light situations.",
+        "pricing":20,
+        "rating":5,
+        "img":"https://i.ibb.co/1Gzbx56/19.webp",
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Router",
+        "title":"Asus RT-AX86U 5700Mbps Dual Band Router",
+        "description":"The ASUS RT-AX86U dual-band WiFi 6 router delivers ultrafast WiFi speeds up to 5700 Mbps, and is packed with advanced technology, including Mobile Game Mode for a lag-free, low-latency mobile gaming experience. RT-AX86U supports up to a 2 Gbps internet connection, so you can unlock the full potential of high-speed networking for both wired and WiFi connections. The Asus RT-AX86U comes with 2 years warranty.",
+        "pricing":800,
+        "rating":5,
+        "img":"https://i.ibb.co/7NJCKvz/20.jpg",
+        "otherImg" : ["https://i.ibb.co/ZGRnjY1/21.jpg","https://i.ibb.co/M7p3j5g/22.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Keyboard",
+        "title":"NZXT Function Full Size RGB Mechanical Gaming Keyboard",
+        "description":"The NZXT Function is a full-size Mechanical Keyboard that comes with all 104 keys. This is ideal for those who desire a full-size keyboard without a large footprint. The NZXT Function Full Keyboard packs 104 keys into the sleekest form possible. It is equipped with MX-compatible 5-pin hot-swappable sockets for changing out mechanical switches.",
+        "pricing":120,
+        "rating":5,
+        "img":"https://i.ibb.co/yqLR8LM/23.jpg",
+        "otherImg" : ["https://i.ibb.co/0DrJQv8/24.jpg","https://i.ibb.co/3h1sbZG/25.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Mouse",
+        "title":"AULA H510 Macro 14 Buttons Wired Gaming Mouse",
+        "description":"The AULA H510 14 Button Wired Gaming Mouse is equipped with Slide Button, 6 Gear DPI Free Switch, Key Press Touch Feeling Clear, Convenient For Blind Press Operations, Execute Game Commands Quickly. DPI Switches Instantly In Fierce Battle, Get More Possibilities & 2 Sets Replaceable Accessories.",
+        "pricing":30,
+        "rating":5,
+        "img":"https://i.ibb.co/WPX2B3M/26.webp",
+        "otherImg" : ["https://i.ibb.co/QCqmqqS/27.webp","https://i.ibb.co/DbSD6Mt/28.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Speaker",
+        "title":"Hoco HC2 True Wireless Waterproof Bluetooth Speaker",
+        "description":"The Hoco HC2 Wireless Bluetooth Speaker is a portable speaker featuring 360-degree surround sound and flashing LED lights. Its IPX5 waterproof certification and convenient carry strap make it an outstanding outdoor speaker, ideal for supporting outdoor sports. The HC2 speaker includes a 2400 mAh battery that lasts for 6 hours of calls and music.",
+        "pricing":20,
+        "rating":5,
+        "img":"https://i.ibb.co/bXFfnXh/29.jpg",
+        "otherImg" : ["https://i.ibb.co/R4n5txh/30.jpg","https://i.ibb.co/YDDyT9V/31.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Microphone",
+        "title":"Neumann U 87 Ai Set Condenser Microphone",
+        "description":"The U 87 Ai's dual-diaphragm capsule, which is elastically suspended, allows for the choosing of three polar patterns (Omni, cardioid, and figure-8) to increase versatility in the studio. In addition, the mic has a switchable -10 dB pad that allows it to catch SPLs up to 127 dB without distortion, as well as a low-cut filter for regulating the development of low-frequency material.",
+        "pricing":3500,
+        "rating":5,
+        "img":"https://i.ibb.co/p25Pzfm/32.jpg",
+        "otherImg" : ["https://i.ibb.co/p28n0D2/33.jpg","https://i.ibb.co/f13L97f/34.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Watch",
+        "title":"Huawei Fit 2 Leather Classic Smartwatch",
+        "description":"The Huawei Watch Fit 2 Smartwatch comes with a lot of features. This gadget has an active addition of a fashionable leather strap with fine-grained textures. This smartwatch has a perfect AMOLED display with ultra-narrow bezels. From incoming calls to everyday workouts.",
+        "pricing":180,
+        "rating":5,
+        "img":"https://i.ibb.co/XDJXBDt/35.webp",
+        "otherImg" : ["https://i.ibb.co/PMSyBP3/36.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Watch",
+        "title":"Amazfit GTS 4 1.75-inch AMOLED Display Smartwatch",
+        "description":"The Amazfit GTS 4 AMOLED Display Smartwatch features an aluminum frame. It sports a 1.75-inch HD AMOLED display with Always-on-Display (AOD), a screen resolution of 390450 pixels, and over 150 watch faces. The BioTracker 4.0 Health Data sensor contains a heart rate monitor (including swimming heart rate tracking), a SpO2 monitor, and a sleep tracker.",
+        "pricing":180,
+        "rating":5,
+        "img":"https://i.ibb.co/7nkmvYs/37.webp",
+        "otherImg" : ["https://i.ibb.co/mGsLwtf/38.webp","https://i.ibb.co/Twww2Lp/39.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Watch",
+        "title":"Xiaomi Amazfit GTS 2 Smart Watch (Global Version)",
+        "description":"The Amazfit GTS 2 features an AMOLED screen that rivals the best displays in the world. The 341 ppi pixel density makes the display clear, exquisite, and true-to-life, with vivid colors ensuring smooth readability.Exquisitely crafted 3D curved glass shimmers like a piece of crystal jade, creating a strong integrated visual experience, and the gorgeous. ",
+        "pricing":110,
+        "rating":5,
+        "img":"https://i.ibb.co/rkrXXTM/40.jpg",
+        "otherImg" : ["https://i.ibb.co/MGKshdp/41.jpg","https://i.ibb.co/C0Fy7Fh/42.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Chair",
+        "title":"Gamemax GCR07 Gaming Chair Red",
+        "description":"Gamemax GCR07 Red Gaming Chair is a relaxing gaming chair by GameMax. Nitro Concepts with soft and extra thick cold foam upholstery with 100% vegan PU artificial leather cover. The rear of the backrest with a carbon look is very gorgeous and attractive. it comes with fixed armrests with extra soft cushioning for a comfortable experience.",
+        "pricing":170,
+        "rating":5,
+        "img":"https://i.ibb.co/tL0Fk30/43.jpg",
+        "otherImg" : ["https://i.ibb.co/ydWhFSy/44.jpg","https://i.ibb.co/cFTzQsG/45.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Chair",
+        "title":"Xigmatek Hairpin Red Streamlined Gaming Chair",
+        "description":"The Xigmatek Hairpin gaming chair comes in Black & Red color. It is designed for professional garners who are seeking the perfect gaming chair. This Red color gaming chair is perfect for furious gaming sessions. It ensures comfort for long-time gaming. It is a fully-featured gaming chair built with high-quality components.",
+        "pricing":200,
+        "rating":5,
+        "img":"https://i.ibb.co/jfN9yHj/46.jpg",
+        "otherImg" : ["https://i.ibb.co/NN47Txw/47.jpg","https://i.ibb.co/w7ddmDm/48.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Chair",
+        "title":"MeeTion MT-CHR22 Leather Reclining E-Sport Red Chair",
+        "description":"The MeeTion MT-CHR22 is an E-Sport Red Gaming Chair with 2D Armrest Massage and it comes with the design of the footrest, you don't worry about playing games or working for a long time. The MeeTion MT-CHR22 is offered in a Red and Black color combination. The red color helps us to focus on what is really important within the image.",
+        "pricing":220,
+        "rating":5,
+        "img":"https://i.ibb.co/Qvwz3F4/49.jpg",
+        "otherImg" : ["https://i.ibb.co/QnHWfgD/50.jpg","https://i.ibb.co/b3tQGzR/51.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Smart Tv",
+        "title":"Xiaomi Mi P1 L43M6 43-Inch Smart Android 4K TV",
+        "description":"Xiaomi Mi P1 L43M6-6ARG Smart Android TV comes with a 43 4K UHD (3,840 x 2,160) display and epic views with a borderless design. 4K UHD resolution delivers true-to-life images with more detail and greater depth. It has a viewing angle of 178°(H)/178°(V). The Mi P1 features a MediaTek MT9611 processor.",
+        "pricing":350,
+        "rating":5,
+        "img":"https://i.ibb.co/4twv0Lv/52.jpg",
+        "otherImg" : ["https://i.ibb.co/FB8ghRh/53.jpg","https://i.ibb.co/FBtrnCf/54.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Smart Tv",
+        "title":"Samsung 55TU8300 55 Curved Crystal UHD 4K HDR Smart TV",
+        "description":"The Samsung 55TU8300 55 Curved Crystal UHD 4K HDR Smart TV features a 55 LED-backlit curved LCD panel with Motion Rate 120 technology, which digitally enhances fast-moving pictures to decrease blur. It is HDR10, HDR10+, and HLG HDR compatible, allowing it to give a broader color gamut with compatible content and other equipment for more vivid images.",
+        "pricing":750,
+        "rating":5,
+        "img":"https://i.ibb.co/DWBWS3D/55.webp",
+        "otherImg" : ["https://i.ibb.co/cTgyN7v/56.webp","https://i.ibb.co/XFQfvMg/57.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Backpack",
+        "title":"ASUS ROG Ranger BP3703G RGB Gaming Backpack",
+        "description":"ASUS ROG Ranger BP3703G is an RGB Gaming Backpack. ROG Ranger BP3703 RGB modular gaming backpack featuring charge-cable passthrough, anti-theft zip, and water repellent exterior fits up to 17-inch laptop suitable for travel. It has Aura RGB dynamic illumination with adaptive brightness, plus an internal light strip for easy organization.",
+        "pricing":260,
+        "rating":5,
+        "img":"https://i.ibb.co/k4rg4zj/1.jpg",
+        "otherImg" : ["https://i.ibb.co/FJjxr4q/2.jpg","https://i.ibb.co/qBD9y8n/3.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Laptop",
+        "title":"Lenovo IdeaPad 3 Ryzen 5 5500U 15.6 FHD Laptop",
+        "description":"The Lenovo IdeaPad 3 comes with AMD Ryzen 5 5500U Processor (8M Cache, 2.1GHz up to 4.0GHz, 6 cores) and 8GB 3200MHZ RAM ( 2 x 4GB ). It comes with 512GB NVMe PCIe SSD storage. And it also features Integrated AMD Radeon Graphics graphics for a smooth gaming experience. AMD SoC (System on Chip) platform has been used in this gaming laptop.",
+        "pricing":650,
+        "rating":5,
+        "img":"https://i.ibb.co/Yk3vPmG/4.jpg",
+        "otherImg" : ["https://i.ibb.co/tMfHhrt/5.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"PC",
+        "title":"ASUS VIVO AiO V222GAK Intel Celeron 21.5 FHD All-in-One PC",
+        "description":"The ASUS VIVO AiO V222GAK All-in-One PC is a stunning combination of beauty, functionality, and power. It has an Intel Celeron Dual Core J4025 (4M Cache, up to 2.90 GHz) Processor, 4GB DDR4 SO-DIMM, 256GB M.2 NVMe PCIe 3.0 SSD, and Graphics: Integrated Intel UHD 600 Graphics.",
+        "pricing":500,
+        "rating":5,
+        "img":"https://i.ibb.co/KLRndMf/6.webp",
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"PC",
+        "title":"HP Pavilion 27-ca1789d Core i7 12th Gen All-in-One PC",
+        "description":"The HP Pavilion 27-ca1789d Core i7 12th Gen All-in-One PC has a 27 FHD(1920 x1080) Non-Touch Antiglare IPS Display. This PC contains an Intel Core i7-12700T (25M Cache, up to 4.70 GHz) processor, 16 GB of memory, and 1 TB of SSD storage. It also includes Intel UHD 770 integrated graphics.",
+        "pricing":1400,
+        "rating":5,
+        "img":"https://i.ibb.co/6bWK4TH/7.png",
+        "otherImg" : ["https://i.ibb.co/8b2gvvr/8.png","https://i.ibb.co/GJBw3cx/9.png"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Laptop",
+        "title":"ASUS VivoBook 14 X1402ZA 12th Gen 14 FHD Laptop",
+        "description":"The ASUS VivoBook 14 X1402ZA is a slim and lightweight laptop that offers powerful performance and a stylish design. The 14-inch full HD (1920 x 1080) 16:9 aspect ratio, IPS-level Panel, LED Backlit, 60Hz refresh rate, 250nits, 45% NTSC color gamut, Anti-glare display, Non-touch screen, (Screen-to-body ratio)82% display provides clear and vibrant visuals.",
+        "pricing":600,
+        "rating":5,
+        "img":"https://i.ibb.co/Z2vCVyX/10.webp",
+        "otherImg" : ["https://i.ibb.co/w4490y9/11.webp","https://i.ibb.co/J72hRRb/12.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Laptop",
+        "title":"Asus VivoBook 15 S513EQ Core i7 11th Gen Laptop",
+        "description":"Asus VivoBook 15 S513EQ Laptop comes with Intel Core i7-1165G7 (12M Cache, 2.80 GHz up to 4.70 GHz) Processor, 8GB DDR4 3200MHz SDRAM Onboard Memory, 1 x SO-DIMM socket for expansion, total up to 12 GB SDRAM, 512GB PCIe Gen3 x2 SSD M.2, NVIDIA GeForce MX350, 2GB GDDR5 VRAM and Intel Iris Xe Graphics and Windows 11 64-bit. In this Laptop.",
+        "pricing":1100,
+        "rating":5,
+        "img":"https://i.ibb.co/p2GbFMZ/13.jpg",
+        "otherImg" : ["https://i.ibb.co/Ydjh4ry/14.jpg","https://i.ibb.co/2gbskCb/16.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Monitor",
+        "title":"Dell P2422H 24 Full HD IPS Monitor",
+        "description":"The Dell P2422H 24 Full HD IPS Monitor features vibrant colors across a wide viewing angle enabled by In-Plane Switching (IPS) technology. It has a 5 ms typical response rate. Optimize eye comfort with ComfortView Plus, an always-on, built-in screen that reduces potentially harmful blue light emissions while delivering excellent color accuracy. ",
+        "pricing":250,
+        "rating":5,
+        "img":"https://i.ibb.co/qxhwQCw/18.jpg",
+        "otherImg" : ["https://i.ibb.co/YPQ1gZN/19.jpg","https://i.ibb.co/Jz9wyrH/20.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"Phone",
+        "title":"Apple iPhone 14 128GB Purple (Singapore)",
+        "description":"The Samsung Galaxy Tab A7 Lite features an 8.7 display, an 80% Screen-to-Body ratio, and a Slim Metal Body. It is powered by a Mediatek MT8768T octa-core Processor for best-in-class performance. It combines an octa-core Arm-Cortex A53 MPCoreTM CPU with an Arm NEON engine operating up to 2.3GHz with a powerful IMG PowerVR GE8320-class graphics processor. ",
+        "pricing":1200,
+        "rating":5,
+        "img":"https://i.ibb.co/2gSchmj/21.webp",
+        "otherImg" : ["https://i.ibb.co/MkW6m0J/22.webp","https://i.ibb.co/x3fRnPW/23.webp"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"HeadPhone",
+        "title":"Dareu A710 5.8G Wireless RGB Gaming Headset",
+        "description":"Dareu A710 Wireless RGB Gaming Headset comes with 5.8G+Type-c+ 3.5mm Working mode. This Gaming Headphone has 1400 mAh Rechargeable Battery. In this Dare Headphone, the 5.8G wireless transmission has extremely fast transmission speeds, ultra-low delay of less than 30m/s, less interference, more stable connection. ",
+        "pricing":60,
+        "rating":5,
+        "img":"https://i.ibb.co/7CvFBbj/24.jpg",
+        "otherImg" : ["https://i.ibb.co/tZNLSDs/25.jpg","https://i.ibb.co/zfQvHNf/26.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    },
+    {
+        "name":"HeadPhone",
+        "title":"HyperX Cloud Alpha S 7.1 Gaming Headset",
+        "description":"HyperX Cloud Alpha S Gaming Headset build with the groundbreaking Cloud Alpha and features HyperX virtual 7.1 surround sound. You can activate the surround sound and adjust the game audio and chat balance without having to go into any menus, with the included audio control mixer. Bass adjustment sliders have been added to the ear cups.",
+        "pricing":120,
+        "rating":5,
+        "img":"https://i.ibb.co/5sZJM2g/27.jpg",
+        "otherImg" : ["https://i.ibb.co/6Z42MCR/28.jpg","https://i.ibb.co/fMh5L26/29.jpg"],
+        "review":[
+         {"rating": 5,
+         "reviewTitle":"Very Good Products"},
+         {"rating": 5,
+         "reviewTitle":"This is very good quality laptop."},
+         {"rating": 5,
+         "reviewTitle":"I highly recommend this product"}
+        ]
+    }
+    
+]
