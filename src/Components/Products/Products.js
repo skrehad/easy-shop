@@ -41,7 +41,7 @@ const Products = () => {
             if (searchItem === "") {
               return product;
             } else if (
-              product.name.toLowerCase().includes(searchItem.toLowerCase())
+              product.title.toLowerCase().includes(searchItem.toLowerCase())
             ) {
               return product;
             }
