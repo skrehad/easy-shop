@@ -2,9 +2,8 @@ import React, { useContext } from "react";
 import "./Login.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { BsFacebook, BsGithub } from "react-icons/bs";
+import { BsGoogle, BsGithub } from "react-icons/bs";
+import { toast } from "react-hot-toast";
 
 const Login = () => {
   const { signInEmail, googleSingIn, githubSingIn } = useContext(AuthContext);
@@ -20,6 +19,7 @@ const Login = () => {
     signInEmail(email, password)
       .then((result) => {
         const user = result.user;
+        toast.success("Success Register");
         event.target.reset();
         navigate(from, { replace: true });
         console.log(user);
@@ -35,13 +35,12 @@ const Login = () => {
     googleSingIn()
       .then((result) => {
         const user = result.user;
+        toast.success("Success Register");
         navigate(from, { replace: true });
         console.log(user);
       })
       .catch((error) => {
         const errorMsg = error.message;
-        // console.error(errorMsg);
-
         toast.warning(errorMsg);
       });
   };
@@ -50,13 +49,12 @@ const Login = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
+        toast.success("Success Register");
         navigate(from, { replace: true });
         console.log(user);
       })
       .catch((error) => {
         const errorMsg = error.message;
-        // console.error(errorMsg);
-
         toast.warning(errorMsg);
       });
   };
@@ -69,7 +67,6 @@ const Login = () => {
             Login
           </h1>
         </div>
-        <ToastContainer />
         <div className="">
           <form
             onSubmit={signIn}
@@ -115,10 +112,10 @@ const Login = () => {
         <div className="text-center mb-8 ">
           <h1 className="underline  font-mono font-bold">OR</h1>
           <div className="flex  gap-5 ml-[108px] mt-2">
-            <BsFacebook
+            <BsGoogle
               onClick={signInWithGoogle}
               className="cursor-pointer text-[#687ea1] text-2xl"
-            ></BsFacebook>
+            ></BsGoogle>
             <BsGithub
               onClick={signInWithGithub}
               className="cursor-pointer text-[#687ea1]  text-2xl"

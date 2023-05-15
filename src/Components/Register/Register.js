@@ -2,9 +2,8 @@ import React, { useContext } from "react";
 import "./Register.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
-import { BsFacebook, BsGithub } from "react-icons/bs";
+import { BsGoogle, BsGithub } from "react-icons/bs";
+import { toast } from "react-hot-toast";
 
 const Register = () => {
   const { createUser, updateName, googleSingIn, githubSingIn } =
@@ -24,6 +23,7 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
+        toast.success("Success Register");
         event.target.reset();
         navigate(from, { replace: true });
         displayName(name);
@@ -47,8 +47,8 @@ const Register = () => {
     googleSingIn()
       .then((result) => {
         const user = result.user;
-        navigate(from, { replace: true });
         toast.success("Success Register");
+        navigate(from, { replace: true });
         console.log(user);
       })
       .catch((error) => {
@@ -61,8 +61,8 @@ const Register = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
-        navigate(from, { replace: true });
         toast.success("Success Register");
+        navigate(from, { replace: true });
         console.log(user);
       })
       .catch((error) => {
@@ -78,7 +78,6 @@ const Register = () => {
             Create An Account
           </h1>
         </div>
-        <ToastContainer />
 
         <div className="">
           <form
@@ -138,10 +137,10 @@ const Register = () => {
         <div className="text-center mb-8">
           <h1 className="underline  font-mono font-bold mt-0">OR</h1>
           <div className="flex  gap-5 ml-[108px] mt-2">
-            <BsFacebook
+            <BsGoogle
               onClick={signInWithGoogle}
               className="cursor-pointer text-[#687ea1] text-2xl"
-            ></BsFacebook>
+            ></BsGoogle>
             <BsGithub
               onClick={signInWithGithub}
               className="cursor-pointer text-[#687ea1]  text-2xl"
