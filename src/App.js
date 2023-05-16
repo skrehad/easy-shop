@@ -6,7 +6,17 @@ function App() {
   return (
     <div className="">
       <Routes></Routes>
-      <Toaster></Toaster>
+      <Toaster
+        toastOptions={{
+          className: "mt-12 mr-6",
+          style: {
+            border: "1px solid #713200",
+            padding: "24px",
+          },
+        }}
+        position="top-right"
+        reverseOrder={false}
+      ></Toaster>
     </div>
   );
 }

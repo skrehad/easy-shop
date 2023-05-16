@@ -1,15 +1,15 @@
 import React, { useState } from "react";
-import { useLoaderData, useNavigation } from "react-router-dom";
 import Product from "../Product/Product";
 import "./Products.css";
+import { useQuery } from "react-query";
 
 const Products = () => {
-  const products = useLoaderData();
-  const navigation = useNavigation();
   const [searchItem, setSearchItem] = useState("");
-  // console.log(products);
+  const { isLoading, data: products } = useQuery("repoData", () =>
+    fetch("http://localhost:5000/products").then((res) => res.json())
+  );
 
-  if (navigation.state === "loading") {
+  if (isLoading) {
     return (
       <div className="justify-center my-6 flex">
         <div role="status">

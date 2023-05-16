@@ -1,13 +1,15 @@
 import React from "react";
 import "./Blogs.css";
-import { Link, useLoaderData, useNavigation } from "react-router-dom";
 import Blog from "../Blog/Blog";
+import { useQuery } from "react-query";
+import { Link } from "react-router-dom";
 
 const Blogs = () => {
-  const blogs = useLoaderData();
-  const navigation = useNavigation();
+  const { isLoading, data: blogs } = useQuery("repoData", () =>
+    fetch("http://localhost:5000/blogs").then((res) => res.json())
+  );
 
-  if (navigation.state === "loading") {
+  if (isLoading) {
     return (
       <div className="justify-center my-6 flex">
         <div role="status">

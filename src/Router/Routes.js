@@ -29,7 +29,7 @@ const Routes = () => {
         },
         {
           path: "/products",
-          loader: async () => fetch("http://localhost:5000/products"),
+          // loader: async () => fetch("http://localhost:5000/products"),
           element: <Products></Products>,
         },
         {
@@ -46,7 +46,7 @@ const Routes = () => {
 
         {
           path: "/blog",
-          loader: () => fetch("http://localhost:5000/blogs"),
+          // loader: () => fetch("http://localhost:5000/blogs"),
           element: <Blogs></Blogs>,
         },
         {
