@@ -15,6 +15,15 @@ const DetailsProduct = () => {
   };
   const email = user?.email;
   const name = user?.displayName;
+  const [value, setValue] = React.useState(0);
+
+  const review = (event) => {
+    event.preventDefault();
+    const name = event.target.name.value;
+    const rating = event.target.rating.value;
+    const textArea = event.target.textarea.value;
+    console.log(name, rating, textArea);
+  };
 
   const handlePlaceOrder = () => {
     const order = {
@@ -92,7 +101,62 @@ const DetailsProduct = () => {
         </div>
       </div>
 
-      <div></div>
+      <div className="text-center font-bold font-mono text-3xl my-6">
+        <p>Review this products</p>
+      </div>
+      <div className="card card-side lg:w-[700px] m-auto  lg:h-[500px] bg-black grid lg:grid-cols-2 sm:grid-cols-1 shadow-xl">
+        <div className="m-auto">
+          <img className="h-[250px]  " src={img} alt="" srcset="" />
+        </div>
+        <div class="w-full m-auto max-w-xs ">
+          <form
+            onSubmit={review}
+            class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
+          >
+            <div className="form-control">
+              <label className="label">
+                <span className="label-text font-mono font-bold">Name</span>
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter Your Name"
+                className="input input-bordered font-mono font-bold"
+                required
+              />
+            </div>
+
+            <div class="my-4 ">
+              <p>Rate this products</p>
+              <Rating
+                type="number"
+                name="rating"
+                value={value}
+                onChange={(event, newValue) => {
+                  setValue(newValue);
+                }}
+              />
+            </div>
+
+            <div class="mb-6">
+              <label className="block text-gray-700 text-sm font-bold mb-2">
+                Say about this products
+              </label>
+              <textarea
+                type="text"
+                name="textarea"
+                placeholder=""
+                className="textarea textarea-bordered textarea-lg w-full max-w-xs"
+              ></textarea>
+            </div>
+            <div className="text-center">
+              <button className=" font-bold p-2 rounded-md hover:text-white hover:bg-[#ff3633] font-mono border border-purple-500">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };

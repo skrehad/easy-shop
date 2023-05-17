@@ -12,7 +12,6 @@ const MyOrder = () => {
     fetch(`http://localhost:5000/orders?email=${user?.email}`)
       .then((res) => res.json())
       .then((data) => {
-        // console.log(data);
         setOrders(data);
       });
   }, [user?.email]);
@@ -27,7 +26,7 @@ const MyOrder = () => {
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
+          // console.log(data);
           if (data.deletedCount > 0) {
             toast.success(" Deleted Successfully");
             const remaining = orders.filter((odr) => odr._id !== id);
