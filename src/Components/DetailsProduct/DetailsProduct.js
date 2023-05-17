@@ -16,7 +16,7 @@ const DetailsProduct = () => {
     setImage(event.target.src);
   };
   const email = user?.email;
-  const profileImage = user.photoURL;
+  const profileImage = user?.photoURL;
   const name = user?.displayName;
   const [value, setValue] = React.useState(0);
 
@@ -143,7 +143,7 @@ const DetailsProduct = () => {
         <p> Customers Reviews</p>
       </div>
 
-      <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
+      <div>
         {reviews.length === 0 ? (
           <div className=" text-center my-8 mx-2">
             <div className="font-bold text-[#ff3633] font-mono text-2xl mb-4 ">
@@ -151,9 +151,13 @@ const DetailsProduct = () => {
             </div>
           </div>
         ) : (
-          reviews.map((review) => (
-            <Review key={review._id} review={review}></Review>
-          ))
+          <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
+            (
+            {reviews.map((review) => (
+              <Review key={review._id} review={review}></Review>
+            ))}
+            )
+          </div>
         )}
       </div>
 
