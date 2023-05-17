@@ -2,9 +2,9 @@ import React from "react";
 import "./OrderRow.css";
 import { Rating } from "@mui/material";
 
-const OrderRow = ({ order }) => {
+const OrderRow = ({ order, handleDelete }) => {
   console.log(order);
-  const { img, pricing, rating, title } = order;
+  const { _id, img, pricing, rating, title } = order;
   return (
     <div className="border rounded-sm orderCard lg:h-[250px] lg:m-auto lg:my-8  p-5 lg:w-[1000px] text-center border-[#37475C] my-8 mx-10">
       <div className="orderCardDiv">
@@ -18,7 +18,10 @@ const OrderRow = ({ order }) => {
         </p>
       </div>
       <div className=" my-auto">
-        <button className="font-mono rounded-md hover:bg-[#ff3633] hover:text-white border p-4 border-[#37475C] font-bold">
+        <button
+          onClick={() => handleDelete(_id)}
+          className="font-mono rounded-md hover:bg-[#ff3633] hover:text-white border p-4 border-[#37475C] font-bold"
+        >
           {" "}
           Cancel Order
         </button>

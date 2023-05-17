@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import OrderRow from "./OrderRow";
 import { Link } from "react-router-dom";
+import { toast } from "react-hot-toast";
 
 const MyOrder = () => {
   const { user } = useContext(AuthContext);
@@ -15,6 +16,26 @@ const MyOrder = () => {
         setOrders(data);
       });
   }, [user?.email]);
+
+  const handleDelete = (id) => {
+    const proceed = window.confirm(
+      "Are you sure, you want to cancel this order"
+    );
+    if (proceed) {
+      fetch(`http://localhost:5000/orders/${id}`, {
+        method: "DELETE",
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+          if (data.deletedCount > 0) {
+            toast.success(" Deleted Successfully");
+            const remaining = orders.filter((odr) => odr._id !== id);
+            setOrders(remaining);
+          }
+        });
+    }
+  };
 
   return (
     <div>
@@ -60,7 +81,7 @@ const MyOrder = () => {
             <OrderRow
               key={order._id}
               order={order}
-              // handleDelete={handleDelete}
+              handleDelete={handleDelete}
             ></OrderRow>
           ))
         )}
