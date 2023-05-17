@@ -14,15 +14,39 @@ const DetailsProduct = () => {
     setImage(event.target.src);
   };
   const email = user?.email;
+  const profileImage = user.photoURL;
   const name = user?.displayName;
   const [value, setValue] = React.useState(0);
 
-  const review = (event) => {
+  const handleReview = (event) => {
     event.preventDefault();
     const name = event.target.name.value;
     const rating = event.target.rating.value;
     const textArea = event.target.textarea.value;
-    console.log(name, rating, textArea);
+
+    const review = {
+      profileImage,
+      name,
+      rating,
+      textArea,
+    };
+
+    fetch("http://localhost:5000/reviews", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(review),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        if (data.acknowledged) {
+          toast.success("Order placed successfully");
+        }
+      })
+      .catch((er) => console.error(er));
+    // console.log(name, rating, textArea);
   };
 
   const handlePlaceOrder = () => {
@@ -43,7 +67,7 @@ const DetailsProduct = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         if (data.acknowledged) {
           toast.success("Order placed successfully");
         }
@@ -101,40 +125,38 @@ const DetailsProduct = () => {
         </div>
       </div>
 
-      <div className="text-center font-bold font-mono text-3xl my-6">
-        <p>Review this products</p>
+      <div className="text-center font-bold font-mono text-3xl my-10 lg:my-6">
+        <p>You can review this product</p>
       </div>
-      <div className="card card-side lg:w-[700px] m-auto  lg:h-[500px] bg-black grid lg:grid-cols-2 sm:grid-cols-1 shadow-xl">
+      <div className="card mb-8 reviewCard card-side lg:w-[700px] m-auto  lg:h-[500px] grid lg:grid-cols-2 sm:grid-cols-1 shadow-2xl">
         <div className="m-auto">
-          <img className="h-[250px]  " src={img} alt="" srcset="" />
+          <img className="h-[250px] mt-6 lg:mt-0" src={img} alt="" srcset="" />
         </div>
         <div class="w-full m-auto max-w-xs ">
-          <form
-            onSubmit={review}
-            class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
-          >
+          <form onSubmit={handleReview} class=" px-8 pt-6 pb-8 mb-4">
             <div className="form-control">
-              <label className="label">
+              <label className="label ">
                 <span className="label-text font-mono font-bold">Name</span>
               </label>
               <input
                 type="text"
                 name="name"
                 placeholder="Enter Your Name"
-                className="input input-bordered font-mono font-bold"
+                className="input input-bordered font-mono font-bold border border-[#37475C]"
                 required
               />
             </div>
 
-            <div class="my-4 ">
-              <p>Rate this products</p>
+            <div class="my-4">
+              <p className="font-mono font-bold">Rate this products</p>
               <Rating
                 type="number"
                 name="rating"
                 value={value}
-                onChange={(event, newValue) => {
+                onChange={(newValue) => {
                   setValue(newValue);
                 }}
+                required
               />
             </div>
 
@@ -146,11 +168,12 @@ const DetailsProduct = () => {
                 type="text"
                 name="textarea"
                 placeholder=""
-                className="textarea textarea-bordered textarea-lg w-full max-w-xs"
+                className="textarea textarea-bordered textarea-lg w-full max-w-xs border border-[#37475C]"
+                required
               ></textarea>
             </div>
             <div className="text-center">
-              <button className=" font-bold p-2 rounded-md hover:text-white hover:bg-[#ff3633] font-mono border border-purple-500">
+              <button className=" font-bold p-2 rounded-md hover:text-white hover:bg-[#ff3633] font-mono border border-[#37475C]">
                 Submit
               </button>
             </div>
