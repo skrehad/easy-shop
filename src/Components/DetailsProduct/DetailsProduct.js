@@ -1,15 +1,17 @@
 import { Rating } from "@mui/material";
-import React, { useContext, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import "./DetailsProduct.css";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { toast } from "react-hot-toast";
-//
+import Review from "../Review/Review";
+
 const DetailsProduct = () => {
   const details = useLoaderData();
   const { title, description, img, pricing, rating, otherImg } = details;
   const { user } = useContext(AuthContext);
   const [image, setImage] = useState(img);
+  const [reviews, setReviews] = useState([]);
   const changeImage = (event) => {
     setImage(event.target.src);
   };
@@ -17,38 +19,6 @@ const DetailsProduct = () => {
   const profileImage = user.photoURL;
   const name = user?.displayName;
   const [value, setValue] = React.useState(0);
-
-  const handleReview = (event) => {
-    event.preventDefault();
-    const name = event.target.name.value;
-    const rating = event.target.rating.value;
-    const textArea = event.target.textarea.value;
-    console.log(rating);
-
-    const review = {
-      title,
-      profileImage,
-      name,
-      rating,
-      textArea,
-    };
-    console.log(review);
-    fetch("http://localhost:5000/reviews", {
-      method: "POST",
-      headers: {
-        "content-type": "application/json",
-      },
-      body: JSON.stringify(review),
-    })
-      .then((res) => res.json())
-      .then((data) => {
-        // console.log(data);
-        if (data.acknowledged) {
-          toast.success("Order placed successfully");
-        }
-      })
-      .catch((er) => console.error(er));
-  };
 
   const handlePlaceOrder = () => {
     const order = {
@@ -71,6 +41,49 @@ const DetailsProduct = () => {
         console.log(data);
         if (data.acknowledged) {
           toast.success("Order placed successfully");
+        }
+      })
+      .catch((er) => console.error(er));
+  };
+
+  useEffect(() => {
+    fetch(`http://localhost:5000/reviews?title=${title}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setReviews(data);
+      });
+  }, [title]);
+
+  const handleReview = (event) => {
+    event.preventDefault();
+    const name = event.target.name.value;
+    const rating = event.target.rating.value;
+    const textArea = event.target.textarea.value;
+    // console.log(rating);
+
+    const review = {
+      title,
+      profileImage,
+      name,
+      rating,
+      textArea,
+    };
+    // console.log(review);
+    fetch("http://localhost:5000/reviews", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(review),
+    })
+      .then((res) => res.json())
+      .then((data) => {
+        // console.log(data);
+        if (data.acknowledged) {
+          toast.success("Review successfully Added");
+
+          // const remaining = reviews.filter((rev) => rev._id !== id);
+          // setReviews(remaining);
         }
       })
       .catch((er) => console.error(er));
@@ -127,7 +140,21 @@ const DetailsProduct = () => {
       </div>
 
       <div className="text-center font-bold font-mono text-3xl my-10 lg:my-6">
-        <p> All reviews about this product</p>
+        <p> Customers Reviews</p>
+      </div>
+
+      <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
+        {reviews.length === 0 ? (
+          <div className=" text-center my-8 mx-2">
+            <div className="font-bold text-[#ff3633] font-mono text-2xl mb-4 ">
+              There are no reviews yet given for this product...
+            </div>
+          </div>
+        ) : (
+          reviews.map((review) => (
+            <Review key={review._id} review={review}></Review>
+          ))
+        )}
       </div>
 
       <div className="text-center font-bold font-mono text-3xl my-10 lg:my-6">
@@ -135,10 +162,10 @@ const DetailsProduct = () => {
       </div>
       <div className="card mb-8 reviewCard card-side lg:w-[700px] m-auto  lg:h-[500px] grid lg:grid-cols-2 sm:grid-cols-1 shadow-2xl">
         <div className="m-auto">
-          <img className="h-[250px] mt-6 lg:mt-0" src={img} alt="" srcset="" />
+          <img className="h-[250px] mt-6 lg:mt-0" src={img} alt="" />
         </div>
-        <div class="w-full m-auto max-w-xs ">
-          <form onSubmit={handleReview} class=" px-8 pt-6 pb-8 mb-4">
+        <div className="w-full m-auto max-w-xs ">
+          <form onSubmit={handleReview} className=" px-8 pt-6 pb-8 mb-4">
             <div className="form-control">
               <label className="label ">
                 <span className="label-text font-mono font-bold">Name</span>
@@ -152,7 +179,7 @@ const DetailsProduct = () => {
               />
             </div>
 
-            <div class="my-4">
+            <div className="my-4">
               <p className="font-mono font-bold">Rate this products</p>
               <Rating
                 type="number"
@@ -165,7 +192,7 @@ const DetailsProduct = () => {
               />
             </div>
 
-            <div class="mb-6">
+            <div className="mb-6">
               <label className="block text-gray-700 text-sm font-bold mb-2">
                 Say about this products
               </label>
