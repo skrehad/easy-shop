@@ -4,7 +4,7 @@ import { useLoaderData } from "react-router-dom";
 import "./DetailsProduct.css";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { toast } from "react-hot-toast";
-
+//
 const DetailsProduct = () => {
   const details = useLoaderData();
   const { title, description, img, pricing, rating, otherImg } = details;
@@ -23,14 +23,16 @@ const DetailsProduct = () => {
     const name = event.target.name.value;
     const rating = event.target.rating.value;
     const textArea = event.target.textarea.value;
+    console.log(rating);
 
     const review = {
+      title,
       profileImage,
       name,
       rating,
       textArea,
     };
-
+    console.log(review);
     fetch("http://localhost:5000/reviews", {
       method: "POST",
       headers: {
@@ -46,7 +48,6 @@ const DetailsProduct = () => {
         }
       })
       .catch((er) => console.error(er));
-    // console.log(name, rating, textArea);
   };
 
   const handlePlaceOrder = () => {
@@ -67,7 +68,7 @@ const DetailsProduct = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        // console.log(data);
+        console.log(data);
         if (data.acknowledged) {
           toast.success("Order placed successfully");
         }
@@ -153,7 +154,7 @@ const DetailsProduct = () => {
                 type="number"
                 name="rating"
                 value={value}
-                onChange={(newValue) => {
+                onChange={(event, newValue) => {
                   setValue(newValue);
                 }}
                 required
@@ -172,6 +173,7 @@ const DetailsProduct = () => {
                 required
               ></textarea>
             </div>
+
             <div className="text-center">
               <button className=" font-bold p-2 rounded-md hover:text-white hover:bg-[#ff3633] font-mono border border-[#37475C]">
                 Submit
