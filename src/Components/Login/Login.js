@@ -19,7 +19,7 @@ const Login = () => {
     signInEmail(email, password)
       .then((result) => {
         const user = result.user;
-        toast.success("Success Register");
+        toast.success("Login Successfully by Email");
         event.target.reset();
         navigate(from, { replace: true });
         console.log(user);
@@ -35,7 +35,7 @@ const Login = () => {
     googleSingIn()
       .then((result) => {
         const user = result.user;
-        toast.success("Success Register");
+        toast.success("Login Successfully by Google");
         navigate(from, { replace: true });
         console.log(user);
       })
@@ -49,7 +49,7 @@ const Login = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
-        toast.success("Success Register");
+        toast.success("Login Successfully by Github");
         navigate(from, { replace: true });
         console.log(user);
       })

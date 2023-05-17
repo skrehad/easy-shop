@@ -23,7 +23,7 @@ const Register = () => {
       .then((result) => {
         const user = result.user;
         console.log(user);
-        toast.success("Success Register");
+        toast.success("Successfully Register");
         event.target.reset();
         navigate(from, { replace: true });
         displayName(name);
@@ -47,7 +47,7 @@ const Register = () => {
     googleSingIn()
       .then((result) => {
         const user = result.user;
-        toast.success("Success Register");
+        toast.success(" Register Successfully by Google");
         navigate(from, { replace: true });
         console.log(user);
       })
@@ -61,7 +61,7 @@ const Register = () => {
     githubSingIn()
       .then((result) => {
         const user = result.user;
-        toast.success("Success Register");
+        toast.success(" Register Successfully by Github");
         navigate(from, { replace: true });
         console.log(user);
       })
