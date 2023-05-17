@@ -127,6 +127,10 @@ const DetailsProduct = () => {
       </div>
 
       <div className="text-center font-bold font-mono text-3xl my-10 lg:my-6">
+        <p> All reviews about this product</p>
+      </div>
+
+      <div className="text-center font-bold font-mono text-3xl my-10 lg:my-6">
         <p>You can review this product</p>
       </div>
       <div className="card mb-8 reviewCard card-side lg:w-[700px] m-auto  lg:h-[500px] grid lg:grid-cols-2 sm:grid-cols-1 shadow-2xl">
