@@ -51,7 +51,7 @@ const DetailsProduct = () => {
           </div>
 
           {otherImg && (
-            <div className="small-imgs">
+            <div className="small-img">
               <img
                 className="shadow-2xl"
                 onMouseOver={changeImage}

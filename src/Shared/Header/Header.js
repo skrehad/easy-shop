@@ -3,7 +3,6 @@ import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import image from "./images.png";
-import image2 from "./download.png";
 
 const Header = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -143,7 +142,7 @@ const Header = () => {
               {user && user.photoURL ? (
                 <img src={user.photoURL} alt="" />
               ) : (
-                <img src={image2} alt="" />
+                <img src="https://i.ibb.co/S5PRg6x/download.jpg" alt="" />
               )}
             </div>
           </label>
