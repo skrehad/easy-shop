@@ -8,7 +8,7 @@ import Review from "../Review/Review";
 
 const DetailsProduct = () => {
   const details = useLoaderData();
-  const { _id, title, description, img, pricing, rating, otherImg } = details;
+  const { title, description, img, pricing, rating, otherImg } = details;
   const { user } = useContext(AuthContext);
   const [image, setImage] = useState(img);
   const [reviews, setReviews] = useState([]);
@@ -59,7 +59,7 @@ const DetailsProduct = () => {
     const name = event.target.name.value;
     const rating = event.target.rating.value;
     const textArea = event.target.textarea.value;
-    // console.log(id);
+    // console.log();
 
     const review = {
       title,
@@ -82,7 +82,7 @@ const DetailsProduct = () => {
         if (data.acknowledged) {
           toast.success("Review successfully Added");
           window.location.reload();
-          // const remaining = reviews.filter((rev) => rev._id !== id);
+          // const remaining = reviews.filter((rev) => rev._id !== _id);
           // setReviews(remaining);
         }
       })
@@ -152,11 +152,9 @@ const DetailsProduct = () => {
           </div>
         ) : (
           <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
-            (
             {reviews.map((review) => (
               <Review key={review._id} review={review}></Review>
             ))}
-            )
           </div>
         )}
       </div>
@@ -169,10 +167,7 @@ const DetailsProduct = () => {
           <img className="h-[250px] mt-6 lg:mt-0" src={img} alt="" />
         </div>
         <div className="w-full m-auto max-w-xs ">
-          <form
-            onSubmit={() => handleReview(_id)}
-            className=" px-8 pt-6 pb-8 mb-4"
-          >
+          <form onSubmit={handleReview} className=" px-8 pt-6 pb-8 mb-4">
             <div className="form-control">
               <label className="label ">
                 <span className="label-text font-mono font-bold">Name</span>

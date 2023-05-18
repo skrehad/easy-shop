@@ -2,7 +2,7 @@ import { Rating } from "@mui/material";
 import React from "react";
 
 const Review = ({ review }) => {
-  console.log(review);
+  // console.log(review);
   const { profileImage, name, rating, textArea } = review;
   return (
     <div className="text-center rounded-md bg-white mx-12 mt-12">
