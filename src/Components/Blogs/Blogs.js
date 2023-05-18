@@ -3,8 +3,11 @@ import "./Blogs.css";
 import Blog from "../Blog/Blog";
 import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const Blogs = () => {
+  useTitle("Blogs");
+
   const { isLoading, data: blogs } = useQuery("repoData", () =>
     fetch("http://localhost:5000/blogs").then((res) => res.json())
   );

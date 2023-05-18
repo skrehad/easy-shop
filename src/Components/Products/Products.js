@@ -2,8 +2,11 @@ import React, { useState } from "react";
 import Product from "../Product/Product";
 import "./Products.css";
 import { useQuery } from "react-query";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const Products = () => {
+  useTitle("Products");
+
   const [searchItem, setSearchItem] = useState("");
   const { isLoading, data: products } = useQuery("repoData", () =>
     fetch("http://localhost:5000/products").then((res) => res.json())

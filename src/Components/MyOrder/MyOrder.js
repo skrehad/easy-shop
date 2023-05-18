@@ -3,8 +3,11 @@ import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import OrderRow from "./OrderRow";
 import { Link } from "react-router-dom";
 import { toast } from "react-hot-toast";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const MyOrder = () => {
+  useTitle("MyOrder");
+
   const { user } = useContext(AuthContext);
   const [orders, setOrders] = useState([]);
 

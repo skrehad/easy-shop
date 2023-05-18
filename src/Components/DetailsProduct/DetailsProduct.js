@@ -5,8 +5,11 @@ import "./DetailsProduct.css";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { toast } from "react-hot-toast";
 import Review from "../Review/Review";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const DetailsProduct = () => {
+  useTitle("DetailsProduct");
+
   const details = useLoaderData();
   const { title, description, img, pricing, rating, otherImg } = details;
   const { user } = useContext(AuthContext);

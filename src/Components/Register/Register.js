@@ -4,8 +4,11 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 import { BsGoogle, BsGithub } from "react-icons/bs";
 import { toast } from "react-hot-toast";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const Register = () => {
+  useTitle("Register");
+
   const { createUser, updateName, googleSingIn, githubSingIn } =
     useContext(AuthContext);
   const navigate = useNavigate();

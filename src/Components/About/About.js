@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./About.css";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const About = () => {
+  useTitle("About");
+
   return (
     <div>
       <div className="text-[#ff0336] my-12 font-bold  font-mono text-center text-3xl">

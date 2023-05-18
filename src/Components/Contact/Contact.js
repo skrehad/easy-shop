@@ -3,8 +3,10 @@ import "./Contact.css";
 import { IoIosCall } from "react-icons/io";
 import { FaHome } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const Contact = () => {
+  useTitle("Contact");
   return (
     <section className="contact">
       <div className="content">
