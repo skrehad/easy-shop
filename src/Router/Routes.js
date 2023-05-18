@@ -11,7 +11,7 @@ import Main from "../LayOuts/Main";
 import MyOrder from "../Components/MyOrder/MyOrder";
 import Products from "../Components/Products/Products";
 import DetailsProduct from "../Components/DetailsProduct/DetailsProduct";
-// import PrivateRouter from "./PrivateRouter";
+import PrivateRouter from "./PrivateRouter";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -37,11 +37,19 @@ const Routes = () => {
           loader: async ({ params }) => {
             return fetch(`http://localhost:5000/products/${params.id}`);
           },
-          element: <DetailsProduct></DetailsProduct>,
+          element: (
+            <PrivateRouter>
+              <DetailsProduct></DetailsProduct>
+            </PrivateRouter>
+          ),
         },
         {
           path: "/myOrders",
-          element: <MyOrder></MyOrder>,
+          element: (
+            <PrivateRouter>
+              <MyOrder></MyOrder>
+            </PrivateRouter>
+          ),
         },
 
         {
