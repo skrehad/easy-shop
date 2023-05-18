@@ -8,7 +8,7 @@ import Review from "../Review/Review";
 
 const DetailsProduct = () => {
   const details = useLoaderData();
-  const { title, description, img, pricing, rating, otherImg } = details;
+  const { _id, title, description, img, pricing, rating, otherImg } = details;
   const { user } = useContext(AuthContext);
   const [image, setImage] = useState(img);
   const [reviews, setReviews] = useState([]);
@@ -59,7 +59,7 @@ const DetailsProduct = () => {
     const name = event.target.name.value;
     const rating = event.target.rating.value;
     const textArea = event.target.textarea.value;
-    // console.log(rating);
+    // console.log(id);
 
     const review = {
       title,
@@ -81,7 +81,7 @@ const DetailsProduct = () => {
         // console.log(data);
         if (data.acknowledged) {
           toast.success("Review successfully Added");
-
+          window.location.reload();
           // const remaining = reviews.filter((rev) => rev._id !== id);
           // setReviews(remaining);
         }
@@ -169,7 +169,10 @@ const DetailsProduct = () => {
           <img className="h-[250px] mt-6 lg:mt-0" src={img} alt="" />
         </div>
         <div className="w-full m-auto max-w-xs ">
-          <form onSubmit={handleReview} className=" px-8 pt-6 pb-8 mb-4">
+          <form
+            onSubmit={() => handleReview(_id)}
+            className=" px-8 pt-6 pb-8 mb-4"
+          >
             <div className="form-control">
               <label className="label ">
                 <span className="label-text font-mono font-bold">Name</span>

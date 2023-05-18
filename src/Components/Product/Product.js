@@ -20,7 +20,7 @@ const Product = ({ product }) => {
           <p className="text-xl flex items-center font-mono font-bold">
             Rating: <Rating name="read-only" value={rating} readOnly />
           </p>
-          <p className="font-mono text-md">{description.slice(1, 250)}...</p>
+          <p className="font-mono text-md">{description?.slice(1, 250)}...</p>
           <Link to={`/products/${_id}`}>
             <button className="btn border border-purple-900  my-2 hover:bg-[#ff0336] hover:text-white font-mono btn-outline">
               Details
