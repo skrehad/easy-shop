@@ -2,7 +2,6 @@ import React, { useContext } from "react";
 import "./Header.css";
 import { Link, NavLink } from "react-router-dom";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
-import image from "./images.png";
 
 const Header = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -99,7 +98,11 @@ const Header = () => {
           </ul>
         </div>
         <Link to="/" className="ml-2 flex   normal-case text-xl">
-          <img className="w-[50px] headerImage h-[50px]" src={image} alt="" />
+          <img
+            className="w-[50px] headerImage h-[50px]"
+            src="https://i.ibb.co/KrFxBpb/images.png"
+            alt=""
+          />
           <div className="ml-2 italic font-bold mt-2.5 headerIcon">
             Easy Shop
           </div>

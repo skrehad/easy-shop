@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Footer.css";
-import image from "./images.png";
 
 const Footer = () => {
   return (
@@ -49,7 +48,7 @@ const Footer = () => {
           <Link to="/" className="ml-2 flex   normal-case text-xl">
             <img
               className="w-[50px] headerImage mr-2 h-[50px]"
-              src={image}
+              src="https://i.ibb.co/KrFxBpb/images.png"
               alt=""
             />
             <div className=" italic font-bold mt-2.5 ">Easy Shop</div>

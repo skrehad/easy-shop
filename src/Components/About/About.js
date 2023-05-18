@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import image1 from "https://i.ibb.co/VwHRxCs/1.jpg";
-import image2 from "https://i.ibb.co/McKkvmm/2.jpg";
-import image3 from "https://i.ibb.co/pn4xxXd/3.jpg";
 import "./About.css";
 
 const About = () => {
@@ -33,12 +30,12 @@ const About = () => {
         </div>
 
         <div className=" imgSize ">
-          <img src={image1} alt="" />
+          <img src="https://i.ibb.co/VwHRxCs/1.jpg" alt="" />
         </div>
       </div>
       <div className="aboutSection">
         <div>
-          <img src={image2} alt="" />
+          <img src="https://i.ibb.co/McKkvmm/2.jpg" alt="" />
         </div>
 
         <div className="text-center my-auto mx-10">
@@ -78,7 +75,7 @@ const About = () => {
         </div>
 
         <div>
-          <img src={image3} alt="" />
+          <img src="https://i.ibb.co/pn4xxXd/3.jpg" alt="" />
         </div>
       </div>
     </div>
