@@ -14,7 +14,7 @@ const Home = () => {
   useTitle("Home");
 
   return (
-    <div className="lg:px-32 px-8">
+    <div className="lg:px-32 px-8 text-center">
       <MainSection></MainSection>
       <Services></Services>
       <Carousel></Carousel>
