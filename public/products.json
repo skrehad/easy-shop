@@ -6,15 +6,7 @@
         "pricing":1350,
         "rating":5,
         "img":"https://i.ibb.co/zRZNcdt/7.webp",
-        "otherImg" : ["https://i.ibb.co/yFyncxQ/8.webp","https://i.ibb.co/0n3xrCV/9.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/yFyncxQ/8.webp","https://i.ibb.co/0n3xrCV/9.webp"]
     },
     {
         "name":"HeadPhone",
@@ -23,15 +15,7 @@
         ,"pricing":60,
         "rating":5,
         "img":"https://i.ibb.co/jhw2nXW/4.jpg",
-        "otherImg" : ["https://i.ibb.co/JBm4Tzf/5.webp","https://i.ibb.co/qMQN3h2/6.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/JBm4Tzf/5.webp","https://i.ibb.co/qMQN3h2/6.webp"]
     },
     {
         "name":"Monitor",
@@ -40,15 +24,7 @@
         "pricing":150,
         "rating":5,
         "img":"https://i.ibb.co/YPPVjGF/1.jpg",
-        "otherImg" : ["https://i.ibb.co/cLfyCTJ/2.jpg","https://i.ibb.co/fnGQ2xz/3.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/cLfyCTJ/2.jpg","https://i.ibb.co/fnGQ2xz/3.jpg"]
     },
     {
         "name":"Phone",
@@ -57,15 +33,7 @@
         "pricing":2600,
         "rating":5,
         "img":"https://i.ibb.co/m5Z2DX5/10.webp",
-        "otherImg" : ["https://i.ibb.co/rGSh0s8/11.png","https://i.ibb.co/LCWVmY1/12.png"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/rGSh0s8/11.png","https://i.ibb.co/LCWVmY1/12.png"]
     },
     {
         "name":"ipad",
@@ -74,15 +42,7 @@
         "pricing":1500,
         "rating":5,
         "img":"https://i.ibb.co/nPkJg9y/13.jpg",
-        "otherImg" : ["https://i.ibb.co/8NLb8WG/14.jpg","https://i.ibb.co/LYZDt9w/15.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/8NLb8WG/14.jpg","https://i.ibb.co/LYZDt9w/15.jpg"]
     },
     {
         "name":"Camera",
@@ -91,15 +51,7 @@
         "pricing":1700,
         "rating":5,
         "img":"https://i.ibb.co/544L7mf/16.jpg",
-        "otherImg" : ["https://i.ibb.co/VQzt9mk/17.jpg","https://i.ibb.co/pKz3SNm/18.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/VQzt9mk/17.jpg","https://i.ibb.co/pKz3SNm/18.jpg"]       
     },
     {
         "name":"CCTV Camera",
@@ -107,15 +59,7 @@
         "description":"The Jovision JVS-A815-YWC 2MP HD Analog Bullet CCTV Camera is a day and night full-color dome security camera. Jovision JVS-A815-YWC 2MP HD Camera has got you covered whether you're seeking to buy an interior camera to monitor your home day and night, an outdoor camera for your backyard, or even for indoors and outdoors and adjust to varied light situations.",
         "pricing":20,
         "rating":5,
-        "img":"https://i.ibb.co/1Gzbx56/19.webp",
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "img":"https://i.ibb.co/1Gzbx56/19.webp"
     },
     {
         "name":"Router",
@@ -124,15 +68,7 @@
         "pricing":800,
         "rating":5,
         "img":"https://i.ibb.co/7NJCKvz/20.jpg",
-        "otherImg" : ["https://i.ibb.co/ZGRnjY1/21.jpg","https://i.ibb.co/M7p3j5g/22.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/ZGRnjY1/21.jpg","https://i.ibb.co/M7p3j5g/22.jpg"]
     },
     {
         "name":"Keyboard",
@@ -141,15 +77,7 @@
         "pricing":120,
         "rating":5,
         "img":"https://i.ibb.co/yqLR8LM/23.jpg",
-        "otherImg" : ["https://i.ibb.co/0DrJQv8/24.jpg","https://i.ibb.co/3h1sbZG/25.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/0DrJQv8/24.jpg","https://i.ibb.co/3h1sbZG/25.jpg"]       
     },
     {
         "name":"Mouse",
@@ -158,15 +86,7 @@
         "pricing":30,
         "rating":5,
         "img":"https://i.ibb.co/WPX2B3M/26.webp",
-        "otherImg" : ["https://i.ibb.co/QCqmqqS/27.webp","https://i.ibb.co/DbSD6Mt/28.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/QCqmqqS/27.webp","https://i.ibb.co/DbSD6Mt/28.webp"]       
     },
     {
         "name":"Speaker",
@@ -175,15 +95,7 @@
         "pricing":20,
         "rating":5,
         "img":"https://i.ibb.co/bXFfnXh/29.jpg",
-        "otherImg" : ["https://i.ibb.co/R4n5txh/30.jpg","https://i.ibb.co/YDDyT9V/31.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/R4n5txh/30.jpg","https://i.ibb.co/YDDyT9V/31.jpg"]       
     },
     {
         "name":"Microphone",
@@ -192,15 +104,7 @@
         "pricing":3500,
         "rating":5,
         "img":"https://i.ibb.co/p25Pzfm/32.jpg",
-        "otherImg" : ["https://i.ibb.co/p28n0D2/33.jpg","https://i.ibb.co/f13L97f/34.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/p28n0D2/33.jpg","https://i.ibb.co/f13L97f/34.jpg"]       
     },
     {
         "name":"Watch",
@@ -209,15 +113,7 @@
         "pricing":180,
         "rating":5,
         "img":"https://i.ibb.co/XDJXBDt/35.webp",
-        "otherImg" : ["https://i.ibb.co/PMSyBP3/36.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/PMSyBP3/36.webp"]       
     },
     {
         "name":"Watch",
@@ -226,15 +122,7 @@
         "pricing":180,
         "rating":5,
         "img":"https://i.ibb.co/7nkmvYs/37.webp",
-        "otherImg" : ["https://i.ibb.co/mGsLwtf/38.webp","https://i.ibb.co/Twww2Lp/39.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/mGsLwtf/38.webp","https://i.ibb.co/Twww2Lp/39.webp"]      
     },
     {
         "name":"Watch",
@@ -243,15 +131,7 @@
         "pricing":110,
         "rating":5,
         "img":"https://i.ibb.co/rkrXXTM/40.jpg",
-        "otherImg" : ["https://i.ibb.co/MGKshdp/41.jpg","https://i.ibb.co/C0Fy7Fh/42.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/MGKshdp/41.jpg","https://i.ibb.co/C0Fy7Fh/42.jpg"]       
     },
     {
         "name":"Chair",
@@ -260,15 +140,7 @@
         "pricing":170,
         "rating":5,
         "img":"https://i.ibb.co/tL0Fk30/43.jpg",
-        "otherImg" : ["https://i.ibb.co/ydWhFSy/44.jpg","https://i.ibb.co/cFTzQsG/45.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/ydWhFSy/44.jpg","https://i.ibb.co/cFTzQsG/45.jpg"]       
     },
     {
         "name":"Chair",
@@ -277,15 +149,7 @@
         "pricing":200,
         "rating":5,
         "img":"https://i.ibb.co/jfN9yHj/46.jpg",
-        "otherImg" : ["https://i.ibb.co/NN47Txw/47.jpg","https://i.ibb.co/w7ddmDm/48.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/NN47Txw/47.jpg","https://i.ibb.co/w7ddmDm/48.jpg"]       
     },
     {
         "name":"Chair",
@@ -293,16 +157,7 @@
         "description":"The MeeTion MT-CHR22 is an E-Sport Red Gaming Chair with 2D Armrest Massage and it comes with the design of the footrest, you don't worry about playing games or working for a long time. The MeeTion MT-CHR22 is offered in a Red and Black color combination. The red color helps us to focus on what is really important within the image.",
         "pricing":220,
         "rating":5,
-        "img":"https://i.ibb.co/Qvwz3F4/49.jpg",
-        "otherImg" : ["https://i.ibb.co/QnHWfgD/50.jpg","https://i.ibb.co/b3tQGzR/51.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "img":"https://i.ibb.co/Qvwz3F4/49.jpg"       
     },
     {
         "name":"Smart Tv",
@@ -311,15 +166,7 @@
         "pricing":350,
         "rating":5,
         "img":"https://i.ibb.co/4twv0Lv/52.jpg",
-        "otherImg" : ["https://i.ibb.co/FB8ghRh/53.jpg","https://i.ibb.co/FBtrnCf/54.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/FB8ghRh/53.jpg","https://i.ibb.co/FBtrnCf/54.jpg"]
     },
     {
         "name":"Smart Tv",
@@ -328,15 +175,7 @@
         "pricing":750,
         "rating":5,
         "img":"https://i.ibb.co/DWBWS3D/55.webp",
-        "otherImg" : ["https://i.ibb.co/cTgyN7v/56.webp","https://i.ibb.co/XFQfvMg/57.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/cTgyN7v/56.webp","https://i.ibb.co/XFQfvMg/57.webp"]        
     },
     {
         "name":"Backpack",
@@ -345,15 +184,7 @@
         "pricing":260,
         "rating":5,
         "img":"https://i.ibb.co/k4rg4zj/1.jpg",
-        "otherImg" : ["https://i.ibb.co/FJjxr4q/2.jpg","https://i.ibb.co/qBD9y8n/3.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/FJjxr4q/2.jpg","https://i.ibb.co/qBD9y8n/3.jpg"]        
     },
     {
         "name":"Laptop",
@@ -362,15 +193,7 @@
         "pricing":650,
         "rating":5,
         "img":"https://i.ibb.co/Yk3vPmG/4.jpg",
-        "otherImg" : ["https://i.ibb.co/tMfHhrt/5.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/tMfHhrt/5.jpg"]        
     },
     {
         "name":"PC",
@@ -378,15 +201,7 @@
         "description":"The ASUS VIVO AiO V222GAK All-in-One PC is a stunning combination of beauty, functionality, and power. It has an Intel Celeron Dual Core J4025 (4M Cache, up to 2.90 GHz) Processor, 4GB DDR4 SO-DIMM, 256GB M.2 NVMe PCIe 3.0 SSD, and Graphics: Integrated Intel UHD 600 Graphics.",
         "pricing":500,
         "rating":5,
-        "img":"https://i.ibb.co/KLRndMf/6.webp",
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "img":"https://i.ibb.co/KLRndMf/6.webp"       
     },
     {
         "name":"PC",
@@ -395,15 +210,7 @@
         "pricing":1400,
         "rating":5,
         "img":"https://i.ibb.co/6bWK4TH/7.png",
-        "otherImg" : ["https://i.ibb.co/8b2gvvr/8.png","https://i.ibb.co/GJBw3cx/9.png"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/8b2gvvr/8.png","https://i.ibb.co/GJBw3cx/9.png"]        
     },
     {
         "name":"Laptop",
@@ -412,15 +219,7 @@
         "pricing":600,
         "rating":5,
         "img":"https://i.ibb.co/Z2vCVyX/10.webp",
-        "otherImg" : ["https://i.ibb.co/w4490y9/11.webp","https://i.ibb.co/J72hRRb/12.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/w4490y9/11.webp","https://i.ibb.co/J72hRRb/12.webp"]        
     },
     {
         "name":"Laptop",
@@ -429,15 +228,7 @@
         "pricing":1100,
         "rating":5,
         "img":"https://i.ibb.co/p2GbFMZ/13.jpg",
-        "otherImg" : ["https://i.ibb.co/Ydjh4ry/14.jpg","https://i.ibb.co/2gbskCb/16.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/Ydjh4ry/14.jpg","https://i.ibb.co/2gbskCb/16.jpg"]       
     },
     {
         "name":"Monitor",
@@ -446,15 +237,7 @@
         "pricing":250,
         "rating":5,
         "img":"https://i.ibb.co/qxhwQCw/18.jpg",
-        "otherImg" : ["https://i.ibb.co/YPQ1gZN/19.jpg","https://i.ibb.co/Jz9wyrH/20.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/YPQ1gZN/19.jpg","https://i.ibb.co/Jz9wyrH/20.jpg"]
     },
     {
         "name":"Phone",
@@ -463,15 +246,7 @@
         "pricing":1200,
         "rating":5,
         "img":"https://i.ibb.co/2gSchmj/21.webp",
-        "otherImg" : ["https://i.ibb.co/MkW6m0J/22.webp","https://i.ibb.co/x3fRnPW/23.webp"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/MkW6m0J/22.webp","https://i.ibb.co/x3fRnPW/23.webp"]
     },
     {
         "name":"HeadPhone",
@@ -480,15 +255,7 @@
         "pricing":60,
         "rating":5,
         "img":"https://i.ibb.co/7CvFBbj/24.jpg",
-        "otherImg" : ["https://i.ibb.co/tZNLSDs/25.jpg","https://i.ibb.co/zfQvHNf/26.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/tZNLSDs/25.jpg","https://i.ibb.co/zfQvHNf/26.jpg"]      
     },
     {
         "name":"HeadPhone",
@@ -497,15 +264,8 @@
         "pricing":120,
         "rating":5,
         "img":"https://i.ibb.co/5sZJM2g/27.jpg",
-        "otherImg" : ["https://i.ibb.co/6Z42MCR/28.jpg","https://i.ibb.co/fMh5L26/29.jpg"],
-        "review":[
-         {"rating": 5,
-         "reviewTitle":"Very Good Products"},
-         {"rating": 5,
-         "reviewTitle":"This is very good quality laptop."},
-         {"rating": 5,
-         "reviewTitle":"I highly recommend this product"}
-        ]
+        "otherImg" : ["https://i.ibb.co/6Z42MCR/28.jpg","https://i.ibb.co/fMh5L26/29.jpg"]      
     }
     
 ]
+
