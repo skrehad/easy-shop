@@ -4,7 +4,6 @@ import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 
 const HomeProducts = () => {
-  // const [searchItem, setSearchItem] = useState("");
   const { data: homeProducts } = useQuery("repoData", () =>
     fetch("http://localhost:5000/homeProducts").then((res) => res.json())
   );
@@ -30,13 +29,8 @@ const HomeProducts = () => {
                 <Rating name="read-only" value={product.rating} readOnly />
               </p>
               <p className="font-mono text-md">
-                {product.description?.slice(1, 250)}...
+                {product.description?.slice(1, 150)}...
               </p>
-              <Link to="/products">
-                <button className="btn border border-purple-900  my-2 hover:bg-[#ff0336] hover:text-white font-mono btn-outline">
-                  More Products
-                </button>
-              </Link>
             </div>
           </div>
         ))}
