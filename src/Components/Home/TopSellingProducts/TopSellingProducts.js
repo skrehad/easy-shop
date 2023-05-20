@@ -13,7 +13,7 @@ const TopSellingProducts = () => {
       </h1>
       <div className="text-center grid lg:grid-cols-3 mb-12">
         {topSellingProducts?.map((product) => (
-          <div className="w-full max-w-sm mb-6 bg-white border rounded-lg shadow-2xl">
+          <div className="w-full max-w-sm mb-6 mx-auto bg-white border rounded-lg shadow-2xl">
             <img
               src={product.img}
               className="p-8 rounded-t-lg"
