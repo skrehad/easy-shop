@@ -8,7 +8,7 @@ const HomeContact = () => {
         <h5 class="mb-2 text-3xl font-bold font-mono">
           Work fast from anywhere
         </h5>
-        <p class="mb-5 text-base text-gray-500 font-mono sm:text-lg dark:text-gray-400">
+        <p class="mb-5 text-base text-gray-700 font-mono sm:text-lg">
           Stay up to date and move work forward with Easy-Shop on iOS & Android.
           Download the app today.
         </p>
