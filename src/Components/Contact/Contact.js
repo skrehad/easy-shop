@@ -4,6 +4,7 @@ import { IoIosCall } from "react-icons/io";
 import { FaHome } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import useTitle from "../../Shared/TitleChange/TitleChange";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   useTitle("Contact");
@@ -77,6 +78,13 @@ const Contact = () => {
             </div>
           </form>
         </div>
+      </div>
+      <div className="mt-8 text-center">
+        <Link to="/addReview">
+          <button className="btn mb-5 text-xl bg-white hover:text-white font-mono btn-outline">
+            Review Us
+          </button>
+        </Link>
       </div>
     </section>
   );

@@ -81,6 +81,13 @@ const About = () => {
           <img src="https://i.ibb.co/pn4xxXd/3.jpg" alt="" />
         </div>
       </div>
+      <div className="mb-12 mt-20 text-center">
+        <Link to="/addReview">
+          <button className="btn mb-5 text-xl border-purple-900 hover:bg-[#ff0336] hover:text-white font-mono btn-outline">
+            Review Us
+          </button>
+        </Link>
+      </div>
     </div>
   );
 };
