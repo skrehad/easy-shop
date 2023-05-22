@@ -1,10 +1,7 @@
 import { Rating } from "@mui/material";
 import React from "react";
-import useTitle from "../../Shared/TitleChange/TitleChange";
 
 const Review = ({ review }) => {
-  useTitle("Review");
-
   // console.log(review);
   const { profileImage, name, rating, textArea } = review;
   return (
