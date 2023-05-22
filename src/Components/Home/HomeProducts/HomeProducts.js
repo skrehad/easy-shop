@@ -4,7 +4,7 @@ import { useQuery } from "react-query";
 import { Link } from "react-router-dom";
 
 const HomeProducts = () => {
-  const { isLoading, data: homeProducts } = useQuery("repoData", () =>
+  const { isLoading, data: homeProducts } = useQuery("homeProduct", () =>
     fetch("http://localhost:5000/products").then((res) => res.json())
   );
 

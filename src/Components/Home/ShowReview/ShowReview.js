@@ -3,9 +3,8 @@ import React from "react";
 
 const ShowReview = (allReview) => {
   const { name, email, profileImage, rating, textArea } = allReview.allReview;
-  console.log(allReview);
   return (
-    <div className="bg-white p-10 m-5 rounded-lg">
+    <div className="bg-white py-10 px-5 lg:p-10 my-5 lg:m-5 rounded-lg">
       <div className="flex space-x-3 mb-5">
         {profileImage === null ? (
           <img
