@@ -26,12 +26,15 @@ const Footer = () => {
           <Link to="/blog" className="link link-hover font-bold font-mono">
             Blogs
           </Link>
-          <Link to="/about" className="link link-hover font-bold font-mono">
-            Press kit
+          <Link to="/addReview" className="link link-hover font-bold font-mono">
+            Review us
           </Link>
         </div>
         <div className="m-auto ">
           <span className="footer-title font-bold ">Legal</span>
+          <Link to="/addReview" className="link link-hover font-bold font-mono">
+            Review us
+          </Link>
           <Link className="link link-hover font-bold font-mono">
             Terms of use
           </Link>
