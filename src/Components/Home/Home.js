@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div className="lg:px-32 px-8 text-center">
       <MainSection></MainSection>
-      <HomeProducts></HomeProducts>
+      {/* <HomeProducts></HomeProducts> */}
       <Services></Services>
       <Carousel></Carousel>
       <OfferSection></OfferSection>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ShowReview from "../ShowReview/ShowReview";
 
 const HomeReview = () => {
-  const { isLoading, data: OverAllReview } = useQuery("repoData", () =>
+  const { isLoading, data: overAllReview } = useQuery("repoData", () =>
     fetch("http://localhost:5000/OverAllReview").then((res) => res.json())
   );
 
@@ -153,10 +153,14 @@ const HomeReview = () => {
       <p className="text-3xl font-bold fond-mono text-[#ff3633]">
         What are our customers saying?
       </p>
-      <div className="my-12">
-        {OverAllReview.slice(0, 6).map((allReview) => (
-          <ShowReview key={allReview._id} allReview={allReview}></ShowReview>
-        ))}
+      <div className="my-12 grid lg:grid-cols-3">
+        {overAllReview
+          .concat()
+          .reverse()
+          .slice(0, 6)
+          .map((allReview) => (
+            <ShowReview key={allReview._id} allReview={allReview}></ShowReview>
+          ))}
       </div>
       <div className="mt-8">
         <Link to="/addReview">
