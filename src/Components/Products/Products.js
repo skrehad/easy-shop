@@ -8,7 +8,7 @@ const Products = () => {
   useTitle("Products");
 
   const [searchItem, setSearchItem] = useState("");
-  const { isLoading, data: products } = useQuery("repoData", () =>
+  const { isLoading, data: products } = useQuery("products", () =>
     fetch("http://localhost:5000/products").then((res) => res.json())
   );
 
