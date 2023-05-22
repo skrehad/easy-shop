@@ -154,10 +154,13 @@ const DetailsProduct = () => {
             </div>
           </div>
         ) : (
-          <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
-            {reviews.reverse().map((review) => (
-              <Review key={review._id} review={review}></Review>
-            ))}
+          <div className="grid mb-12 lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
+            {reviews
+              .concat()
+              .reverse()
+              .map((review) => (
+                <Review key={review._id} review={review}></Review>
+              ))}
           </div>
         )}
       </div>
