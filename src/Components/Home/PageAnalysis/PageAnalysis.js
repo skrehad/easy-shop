@@ -3,7 +3,7 @@ import React from "react";
 const PageAnalysis = () => {
   return (
     <div className="text-center my-12">
-      <div className=" shadow-2xl rounded-lg py-6 bg-white grid lg:grid-cols-3 grid-cols-1">
+      <div className=" shadow-2xl mx-[18px] rounded-lg py-6 bg-white grid lg:grid-cols-3 grid-cols-1">
         <div className=" py-8 text-center lg:border-r border-purple-900">
           <div className="stat-figure text-primary">
             <svg

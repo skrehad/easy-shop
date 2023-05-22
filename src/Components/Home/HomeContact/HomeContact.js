@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const HomeContact = () => {
   return (
-    <div className="mt-12 mb-16">
-      <div class="w-full p-4 text-center bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-8 ">
+    <div className="mt-12 lg:mx-[18px] mb-16">
+      <div class="w-full  p-4 text-center bg-white border border-gray-200 rounded-lg shadow-2xl sm:p-8 ">
         <h5 class="mb-2 text-3xl font-bold font-mono">
           Work fast from anywhere
         </h5>
