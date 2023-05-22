@@ -3,13 +3,13 @@ import React from "react";
 
 const ShowReview = (allReview) => {
   const { name, email, profileImage, rating, textArea } = allReview.allReview;
-  // console.log(allReview);
+  console.log(allReview);
   return (
     <div className="bg-white p-10 m-5 rounded-lg">
       <div className="flex space-x-3 mb-5">
         {profileImage === null ? (
           <img
-            className="m-auto h-[96px] rounded-full"
+            className=" w-16 h-16 rounded-full"
             src="https://i.ibb.co/S5PRg6x/download.jpg"
             alt=""
           />
