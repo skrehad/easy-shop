@@ -14,15 +14,15 @@ const HomeBlog = () => {
         </h2>
       </div>
       <div className="grid lg:grid-cols-3 mb-16 ">
-        <div class=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="my-4">
               <span className="border rounded-lg p-2">11.03.2023</span>
             </h4>
-            <div class="font-bold font-mono text-xl mb-2">
+            <div className="font-bold font-mono text-xl mb-2">
               Yoga Top 10 Mobile App Development Frameworks In 2023
             </div>
-            <p class="mb-5 text-base font-mono">
+            <p className="mb-5 text-base font-mono">
               What are frameworks in Mobile App Development? In mobile app
               development, a framework is a software tool that provides
               developers...
@@ -35,15 +35,15 @@ const HomeBlog = () => {
             </Link>
           </div>
         </div>
-        <div class=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="mb-4 mt-9">
               <span className="border rounded-lg p-2">11.03.2023</span>
             </h4>
-            <div class="font-bold font-mono text-xl mb-2">
+            <div className="font-bold font-mono text-xl mb-2">
               12 factors Startups need to succeed in 2023
             </div>
-            <p class="mb-5 text-base font-mono">
+            <p className="mb-5 text-base font-mono">
               No startup can become successful with just a promising idea -
               especially in 2023.Reimagine how you measure business performance
               to adapt faster. With the market already saturated and...
@@ -56,15 +56,15 @@ const HomeBlog = () => {
             </Link>
           </div>
         </div>
-        <div class=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="mb-4 mt-9">
               <span className="border rounded-lg p-2">11.03.2023</span>
             </h4>
-            <div class="font-bold font-mono text-xl mb-2">
+            <div className="font-bold font-mono text-xl mb-2">
               Top Cloud Security Risks in 2023 & How to Tackle Them
             </div>
-            <p class="mb-5 text-base font-mono">
+            <p className="mb-5 text-base font-mono">
               Cloud computing has revolutionized the way businesses operate,
               providing scalable and cost-effective computing resources
               revolutionized. However, with the increase in the...

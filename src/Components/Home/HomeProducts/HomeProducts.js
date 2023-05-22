@@ -14,21 +14,23 @@ const HomeProducts = () => {
       </h1>
       <div className="text-center grid lg:grid-cols-3 my-12">
         {homeProducts?.map((homeProduct) => (
-          <div class="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-lg mb-8 bg-white">
+          <div
+            key={homeProduct._id}
+            className="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-lg mb-8 bg-white"
+          >
             <img
               src={homeProduct.img}
               className="w-[250px] h-[200px] lg:w-[300px] lg:h-[250px] my-4 mx-auto"
               alt=""
-              srcset=""
             />
-            <div class="px-6 py-4 text-center">
-              <div class="font-bold font-mono text-xl mb-2">
+            <div className="px-6 py-4 text-center">
+              <div className="font-bold font-mono text-xl mb-2">
                 {homeProduct.title}
               </div>
 
               <p className="text-xl font-mono font-bold">
-                Price:{" "}
-                <span className="text-[#ff3633]">${homeProduct.pricing}</span>
+                Price:
+                <span className="text-[#ff3633]"> ${homeProduct.pricing}</span>
               </p>
 
               <div className=" text-center mx-auto my-2">
@@ -43,7 +45,7 @@ const HomeProducts = () => {
                 </p>
               </div>
 
-              <p class="text-gray-700 font-mono text-base">
+              <p className="text-gray-700 font-mono text-base">
                 {homeProduct.description?.slice(1, 150)}...
               </p>
 

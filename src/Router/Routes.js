@@ -12,6 +12,7 @@ import MyOrder from "../Components/MyOrder/MyOrder";
 import Products from "../Components/Products/Products";
 import DetailsProduct from "../Components/DetailsProduct/DetailsProduct";
 import PrivateRouter from "./PrivateRouter";
+import OverAllReview from "../Components/OverAllReview/OverAllReview";
 
 const Routes = () => {
   const router = createBrowserRouter([
@@ -48,6 +49,14 @@ const Routes = () => {
           element: (
             <PrivateRouter>
               <MyOrder></MyOrder>
+            </PrivateRouter>
+          ),
+        },
+        {
+          path: "/addReview",
+          element: (
+            <PrivateRouter>
+              <OverAllReview></OverAllReview>
             </PrivateRouter>
           ),
         },

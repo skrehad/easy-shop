@@ -5,9 +5,7 @@ import { useLoaderData } from "react-router-dom";
 
 const TopSellingProducts = () => {
   const topSellingProducts = useLoaderData();
-  // const { data: topSellingProducts } = useQuery("repoData", () =>
-  //   fetch("http://localhost:5000/topSellingProducts").then((res) => res.json())
-  // );
+
   return (
     <div>
       <h1 className="text-3xl my-8 font-bold font-mono text-[#ff3633]">
@@ -15,13 +13,11 @@ const TopSellingProducts = () => {
       </h1>
       <div className="text-center grid lg:grid-cols-3 mb-12">
         {topSellingProducts?.map((topSelling) => (
-          <div className="w-full max-w-sm mb-6 mx-auto bg-white border rounded-2xl shadow-2xl">
-            <img
-              src={topSelling.img}
-              className="p-8 rounded-t-lg"
-              alt=""
-              srcset=""
-            />
+          <div
+            key={topSelling._id}
+            className="w-full max-w-sm mb-6 mx-auto bg-white border rounded-2xl shadow-2xl"
+          >
+            <img src={topSelling.img} className="p-8 rounded-t-lg" alt="" />
             <div className="px-5 pb-5">
               <h5 className="text-xl mb-4 font-bold font-mono">
                 {topSelling.title}
