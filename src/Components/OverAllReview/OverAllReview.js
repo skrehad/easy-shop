@@ -37,7 +37,9 @@ const OverAllReview = () => {
       .then((data) => {
         event.target.reset();
         if (data.acknowledged) {
-          toast.success("Your Review Added in Home Section successfully");
+          toast.success(
+            "Your Review Added in Home Section successfully. Thanks for your feedback."
+          );
         }
       })
       .catch((er) => console.error(er));
