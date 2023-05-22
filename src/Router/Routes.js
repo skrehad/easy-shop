@@ -22,7 +22,6 @@ const Routes = () => {
       children: [
         {
           path: "/",
-          loader: () => fetch("http://localhost:5000/topSellingProducts"),
           element: <Home></Home>,
         },
         {

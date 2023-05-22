@@ -1,10 +1,14 @@
 import { Rating } from "@mui/material";
-import React from "react";
-// import { useQuery } from "react-query";
-import { useLoaderData } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
 const TopSellingProducts = () => {
-  const topSellingProducts = useLoaderData();
+  const [topSellingProducts, setTopSellingProducts] = useState();
+
+  useEffect(() => {
+    fetch("http://localhost:5000/topSellingProducts")
+      .then((res) => res.json())
+      .then((data) => setTopSellingProducts(data));
+  }, []);
 
   return (
     <div>

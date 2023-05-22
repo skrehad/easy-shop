@@ -5,15 +5,19 @@ import { Link } from "react-router-dom";
 
 const HomeProducts = () => {
   const { data: homeProducts } = useQuery("repoData", () =>
-    fetch("http://localhost:5000/homeProducts").then((res) => res.json())
+    fetch("http://localhost:5000/products").then((res) => res.json())
   );
+
+  // const { data: homeProducts } = useQuery("repoData", () =>
+  //   fetch("http://localhost:5000/homeProducts").then((res) => res.json())
+  // );
   return (
     <div>
       <h1 className="text-3xl my-8 font-bold font-mono text-[#ff3633]">
         Our Products
       </h1>
       <div className="text-center grid lg:grid-cols-3 my-12">
-        {homeProducts?.map((homeProduct) => (
+        {homeProducts?.slice(0, 6).map((homeProduct) => (
           <div
             key={homeProduct._id}
             className="max-w-sm mx-auto rounded-2xl overflow-hidden shadow-lg mb-8 bg-white"
@@ -49,7 +53,7 @@ const HomeProducts = () => {
                 {homeProduct.description?.slice(1, 150)}...
               </p>
 
-              <Link to={`/products/${homeProduct.id}`}>
+              <Link to={`/products/${homeProduct._id}`}>
                 <button className="btn border border-purple-900  my-2 hover:bg-[#ff0336] hover:text-white font-mono btn-outline">
                   Details
                 </button>
