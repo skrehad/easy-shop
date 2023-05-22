@@ -14,7 +14,8 @@ function App() {
             padding: "24px",
           },
         }}
-        position="top-right"
+        duration="4000"
+        position="top-center"
         reverseOrder={false}
       ></Toaster>
     </div>

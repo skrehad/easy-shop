@@ -2,11 +2,15 @@ import { Rating } from "@mui/material";
 import React from "react";
 import { toast } from "react-hot-toast";
 import useTitle from "../../Shared/TitleChange/TitleChange";
+// import { useLocation, useNavigate } from "react-router-dom";
 
 const OverAllReview = () => {
   useTitle("OverAllReview");
 
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(5);
+  // const navigate = useNavigate();
+  // const location = useLocation();
+  // const from = location.state?.from?.pathname || "/";
   //   const { user } = useContext(AuthContext);
 
   //   const email = user?.email;
@@ -33,8 +37,9 @@ const OverAllReview = () => {
       .then((res) => res.json())
       .then((data) => {
         // console.log(data);
+        event.target.reset();
         if (data.acknowledged) {
-          toast.success("Review successfully Added");
+          toast.success("Your Review Added in Home Section successfully");
         }
       })
       .catch((er) => console.error(er));
@@ -45,19 +50,6 @@ const OverAllReview = () => {
       <div className="card mb-8 reviewCard mt-12 card-side lg:w-[700px] m-auto  lg:h-[500px] grid lg:grid-cols-2 sm:grid-cols-1 shadow-2xl">
         <div className="w-full m-auto max-w-xs ">
           <form onSubmit={handleReview} className=" px-8 pt-6 pb-8 mb-4">
-            <div className="form-control">
-              <label className="label ">
-                <span className="label-text font-mono font-bold">Name</span>
-              </label>
-              <input
-                type="text"
-                name="name"
-                placeholder="Enter Your Name"
-                className="input input-bordered font-mono font-bold border border-[#37475C]"
-                required
-              />
-            </div>
-
             <div className="my-4">
               <p className="font-mono font-bold">Rate this products</p>
               <Rating

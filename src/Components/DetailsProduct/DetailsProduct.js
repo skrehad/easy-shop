@@ -21,7 +21,7 @@ const DetailsProduct = () => {
   const email = user?.email;
   const profileImage = user?.photoURL;
   const name = user?.displayName;
-  const [value, setValue] = React.useState(0);
+  const [value, setValue] = React.useState(5);
 
   const handlePlaceOrder = () => {
     const order = {
@@ -155,7 +155,7 @@ const DetailsProduct = () => {
           </div>
         ) : (
           <div className="grid lg:mx-24 lg:grid-cols-3 sm:grid-cols-1">
-            {reviews.map((review) => (
+            {reviews.reverse().map((review) => (
               <Review key={review._id} review={review}></Review>
             ))}
           </div>
