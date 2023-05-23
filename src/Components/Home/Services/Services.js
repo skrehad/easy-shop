@@ -17,16 +17,12 @@ const Services = () => {
             known for their superior craftsmanship and performance.We understand
             the importance of prompt and secure shipping. We partner with
             reliable shipping carriers to ensure your computer accessories are
-            delivered to your doorstep safely and efficiently.We have a team of
-            knowledgeable experts who stay up to date with the latest computer
-            accessories trends and technologies. We can provide guidance and
-            recommendations to help you find the perfect products for your
-            needs.
+            delivered to your doorstep safely and efficiently...
           </p>
         </div>
         <div className="">
           <img
-            className="mt-5 lg:mt-[72px]"
+            className="lg:my-0 my-10"
             src="https://i.ibb.co/HXZbhQx/1.jpg"
             alt=""
             srcset=""

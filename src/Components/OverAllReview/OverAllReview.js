@@ -5,7 +5,7 @@ import useTitle from "../../Shared/TitleChange/TitleChange";
 import { AuthContext } from "../../Context/AuthProvider/AuthProvider";
 
 const OverAllReview = () => {
-  useTitle("OverAllReview");
+  useTitle("AddReview");
 
   const [value, setValue] = React.useState(5);
   const { user } = useContext(AuthContext);
