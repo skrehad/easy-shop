@@ -9,6 +9,7 @@ import OfferSection from "./OfferSection/OfferSection";
 import TopSellingProducts from "./TopSellingProducts/TopSellingProducts";
 import HomeReview from "./HomeReview/HomeReview";
 import HomeProducts from "./HomeProducts/HomeProducts";
+import ShortSection from "./ShortSection/ShortSection";
 
 const Home = () => {
   useTitle("Home");
@@ -21,6 +22,7 @@ const Home = () => {
         <Services></Services>
         <OfferSection></OfferSection>
         <TopSellingProducts></TopSellingProducts>
+        <ShortSection></ShortSection>
         <PageAnalysis></PageAnalysis>
         <HomeReview></HomeReview>
         <HomeBlog></HomeBlog>
