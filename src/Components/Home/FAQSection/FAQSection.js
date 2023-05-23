@@ -1,5 +1,6 @@
 import React from "react";
 import Faq from "react-faq-component";
+import { Link } from "react-router-dom";
 
 const FAQSection = () => {
   const data = {
@@ -53,6 +54,13 @@ const FAQSection = () => {
             timingFunc: "linear",
           }}
         />
+      </div>
+      <div className="mt-8">
+        <Link to="/contact">
+          <button className="btn mb-5 text-xl text-white  hover:border-purple-900 bg-[#ff0336] hover:text-black font-mono btn-outline">
+            Contact Us
+          </button>
+        </Link>
       </div>
     </div>
   );
