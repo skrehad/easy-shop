@@ -5,7 +5,6 @@ import HomeContact from "./HomeContact/HomeContact";
 import MainSection from "./MainSection/MainSection";
 import HomeBlog from "./HomeBlog/HomeBlog";
 import Services from "./Services/Services";
-import Carousel from "./Carousel/Carousel";
 import OfferSection from "./OfferSection/OfferSection";
 import TopSellingProducts from "./TopSellingProducts/TopSellingProducts";
 import HomeReview from "./HomeReview/HomeReview";
@@ -20,7 +19,6 @@ const Home = () => {
       <div className="lg:px-32 px-8 text-center">
         <HomeProducts></HomeProducts>
         <Services></Services>
-        <Carousel></Carousel>
         <OfferSection></OfferSection>
         <TopSellingProducts></TopSellingProducts>
         <PageAnalysis></PageAnalysis>
