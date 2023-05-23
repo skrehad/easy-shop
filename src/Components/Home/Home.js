@@ -15,17 +15,19 @@ const Home = () => {
   useTitle("Home");
 
   return (
-    <div className="lg:px-32 px-8 text-center">
+    <div>
       <MainSection></MainSection>
-      <HomeProducts></HomeProducts>
-      <Services></Services>
-      <Carousel></Carousel>
-      <OfferSection></OfferSection>
-      <TopSellingProducts></TopSellingProducts>
-      <PageAnalysis></PageAnalysis>
-      <HomeReview></HomeReview>
-      <HomeBlog></HomeBlog>
-      <HomeContact></HomeContact>
+      <div className="lg:px-32 px-8 text-center">
+        <HomeProducts></HomeProducts>
+        <Services></Services>
+        <Carousel></Carousel>
+        <OfferSection></OfferSection>
+        <TopSellingProducts></TopSellingProducts>
+        <PageAnalysis></PageAnalysis>
+        <HomeReview></HomeReview>
+        <HomeBlog></HomeBlog>
+        <HomeContact></HomeContact>
+      </div>
     </div>
   );
 };
