@@ -10,6 +10,7 @@ import TopSellingProducts from "./TopSellingProducts/TopSellingProducts";
 import HomeReview from "./HomeReview/HomeReview";
 import HomeProducts from "./HomeProducts/HomeProducts";
 import ShortSection from "./ShortSection/ShortSection";
+import FAQSection from "./FAQSection/FAQSection";
 
 const Home = () => {
   useTitle("Home");
@@ -20,6 +21,7 @@ const Home = () => {
       <div className="lg:px-32 px-8 text-center">
         <HomeProducts></HomeProducts>
         <Services></Services>
+        <FAQSection></FAQSection>
         <OfferSection></OfferSection>
         <TopSellingProducts></TopSellingProducts>
         <ShortSection></ShortSection>
