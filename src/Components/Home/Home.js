@@ -21,10 +21,10 @@ const Home = () => {
       <div className="lg:px-32 px-8 text-center">
         <HomeProducts></HomeProducts>
         <Services></Services>
-        <FAQSection></FAQSection>
         <OfferSection></OfferSection>
         <TopSellingProducts></TopSellingProducts>
         <ShortSection></ShortSection>
+        <FAQSection></FAQSection>
         <PageAnalysis></PageAnalysis>
         <HomeReview></HomeReview>
         <HomeBlog></HomeBlog>
