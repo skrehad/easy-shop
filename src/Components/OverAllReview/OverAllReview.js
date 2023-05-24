@@ -26,7 +26,7 @@ const OverAllReview = () => {
       rating,
       textArea,
     };
-    fetch("http://localhost:5000/overAllReview", {
+    fetch("https://easy-shop-backend-server.vercel.app/overAllReview", {
       method: "POST",
       headers: {
         "content-type": "application/json",

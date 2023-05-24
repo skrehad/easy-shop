@@ -32,7 +32,7 @@ const DetailsProduct = () => {
       pricing,
       rating,
     };
-    fetch("http://localhost:5000/orders", {
+    fetch("https://easy-shop-backend-server.vercel.app/orders", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -50,7 +50,7 @@ const DetailsProduct = () => {
   };
 
   useEffect(() => {
-    fetch(`http://localhost:5000/reviews?title=${title}`)
+    fetch(`https://easy-shop-backend-server.vercel.app/reviews?title=${title}`)
       .then((res) => res.json())
       .then((data) => {
         setReviews(data);
@@ -72,7 +72,7 @@ const DetailsProduct = () => {
       textArea,
     };
     // console.log(review);
-    fetch("http://localhost:5000/reviews", {
+    fetch("https://easy-shop-backend-server.vercel.app/reviews", {
       method: "POST",
       headers: {
         "content-type": "application/json",
