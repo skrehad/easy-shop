@@ -5,7 +5,9 @@ import ShowReview from "../ShowReview/ShowReview";
 
 const HomeReview = () => {
   const { isLoading, data: overAllReview } = useQuery("overAllReview", () =>
-    fetch("http://localhost:5000/OverAllReview").then((res) => res.json())
+    fetch("https://easy-shop-backend-server.vercel.app/OverAllReview").then(
+      (res) => res.json()
+    )
   );
 
   if (isLoading) {

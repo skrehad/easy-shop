@@ -6,9 +6,9 @@ const TopSellingProducts = () => {
   const { isLoading, data: topSellingProducts } = useQuery(
     "topSellingProducts",
     () =>
-      fetch("http://localhost:5000/topSellingProducts").then((res) =>
-        res.json()
-      )
+      fetch(
+        "https://easy-shop-backend-server.vercel.app/topSellingProducts"
+      ).then((res) => res.json())
   );
 
   if (isLoading) {

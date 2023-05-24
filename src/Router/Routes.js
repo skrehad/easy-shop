@@ -35,7 +35,9 @@ const Routes = () => {
         {
           path: "/products/:id",
           loader: async ({ params }) => {
-            return fetch(`http://localhost:5000/products/${params.id}`);
+            return fetch(
+              `https://easy-shop-backend-server.vercel.app/products/${params.id}`
+            );
           },
           element: (
             <PrivateRouter>

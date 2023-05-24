@@ -9,7 +9,9 @@ const Blogs = () => {
   useTitle("Blogs");
 
   const { isLoading, data: blogs } = useQuery("repoData", () =>
-    fetch("http://localhost:5000/blogs").then((res) => res.json())
+    fetch("https://easy-shop-backend-server.vercel.app/blogs").then((res) =>
+      res.json()
+    )
   );
 
   if (isLoading) {

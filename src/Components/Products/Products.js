@@ -9,7 +9,9 @@ const Products = () => {
 
   const [searchItem, setSearchItem] = useState("");
   const { isLoading, data: products } = useQuery("products", () =>
-    fetch("http://localhost:5000/products").then((res) => res.json())
+    fetch("https://easy-shop-backend-server.vercel.app/products").then((res) =>
+      res.json()
+    )
   );
 
   if (isLoading) {
