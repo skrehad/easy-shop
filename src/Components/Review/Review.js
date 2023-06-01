@@ -14,7 +14,11 @@ const Review = ({ review }) => {
             alt=""
           />
         ) : (
-          <img className="m-auto rounded-full" src={profileImage} alt="" />
+          <img
+            className="m-auto h-[96px] rounded-full"
+            src={profileImage}
+            alt=""
+          />
         )}
       </div>
       <p className="text-xl text-[#ff3633] font-bold font-mono mt-2">{name}</p>
