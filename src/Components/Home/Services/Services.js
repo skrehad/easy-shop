@@ -25,7 +25,6 @@ const Services = () => {
             className="lg:my-0 my-10"
             src="https://i.ibb.co/HXZbhQx/1.jpg"
             alt=""
-            srcset=""
           />
         </div>
       </div>
