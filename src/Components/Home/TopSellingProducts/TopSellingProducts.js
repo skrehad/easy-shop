@@ -156,7 +156,7 @@ const TopSellingProducts = () => {
       <h1 className="text-3xl my-8 font-bold font-mono text-[#ff3633]">
         Top Selling Products
       </h1>
-      <div className="text-center grid lg:grid-cols-3 mb-12">
+      <div className="text-center grid lg:grid-cols-3 gap-3 mb-12">
         {topSellingProducts?.map((topSelling) => (
           <div
             key={topSelling._id}

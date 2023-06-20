@@ -155,7 +155,7 @@ const HomeReview = () => {
       <p className="text-3xl font-bold fond-mono text-[#ff3633]">
         What are our customers saying?
       </p>
-      <div className="my-12 grid lg:grid-cols-3">
+      <div className="my-12 grid gap-3 lg:grid-cols-3">
         {overAllReview
           .concat()
           .reverse()

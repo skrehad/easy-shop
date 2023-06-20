@@ -13,8 +13,8 @@ const HomeBlog = () => {
           Our Recent News
         </h2>
       </div>
-      <div className="grid lg:grid-cols-3 mb-16 ">
-        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+      <div className="grid lg:grid-cols-3 mb-16 gap-3">
+        <div className=" mb-4 bg-slate-50 max-w-sm  rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="my-4">
               <span className="border rounded-lg p-2">11.03.2023</span>
@@ -35,7 +35,7 @@ const HomeBlog = () => {
             </Link>
           </div>
         </div>
-        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div className=" mb-4 bg-slate-50 max-w-sm rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="mb-4 mt-9">
               <span className="border rounded-lg p-2">11.03.2023</span>
@@ -56,7 +56,7 @@ const HomeBlog = () => {
             </Link>
           </div>
         </div>
-        <div className=" mb-4 bg-slate-50 max-w-sm m-auto rounded-lg overflow-hidden shadow-2xl">
+        <div className=" mb-4 bg-slate-50 max-w-sm rounded-lg overflow-hidden shadow-2xl">
           <div className="m-8 ">
             <h4 className="mb-4 mt-9">
               <span className="border rounded-lg p-2">11.03.2023</span>

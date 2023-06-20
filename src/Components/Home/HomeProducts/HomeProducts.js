@@ -155,7 +155,7 @@ const HomeProducts = () => {
       <h1 className="text-3xl my-8 font-bold font-mono text-[#ff3633]">
         Our Products
       </h1>
-      <div className="text-center grid lg:grid-cols-3 my-12">
+      <div className="text-center grid lg:grid-cols-3 gap-3 my-12">
         {homeProducts?.slice(0, 6).map((homeProduct) => (
           <div
             key={homeProduct._id}
