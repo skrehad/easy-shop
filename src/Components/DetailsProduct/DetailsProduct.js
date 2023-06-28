@@ -81,12 +81,9 @@ const DetailsProduct = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        // console.log(data);
         if (data.acknowledged) {
           toast.success("Review successfully Added");
           window.location.reload();
-          // const remaining = reviews.filter((rev) => rev._id !== _id);
-          // setReviews(remaining);
         }
       })
       .catch((er) => console.error(er));

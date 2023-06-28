@@ -11,7 +11,9 @@ This is an E-Commerce Website, Where you can Login (Google && Github) and Regist
 » Daisy UI <br />
 » Tailwind CSS <br />
 » React JS <br />
-» MONGODB <br />
+» Mongodb <br />
+» Express.js <br />
+» Node.js <br />
 
 **Use Tools:** <br />
 » FireBase <br />
